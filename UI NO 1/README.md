@@ -2,9 +2,7 @@
 
 This is an Implmentation of the UI of the Boarding Pass 
 
-<p>
-    <img src="sc1.png">
-</p>
+![sc1.png](http://i.imgrpost.com/imgr/2017/07/06/sc1.png)
 
 ## Live Example
 
