@@ -1,0 +1,123 @@
+body{
+ background: #757F9A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #D7DDE8, #757F9A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.maincontainer{
+		width: 500px;
+		display: flex;
+		flex-direction: column;
+		box-sizing: border-box;
+		border-radius: 1.2em;
+  background-color:white;
+		/*font-family: 'Open Sans Condensed', sans-serif;*/
+		/*font-family: 'Vibur', cursive;*/
+		font-family: 'Open Sans', cursive;
+		-webkit-box-shadow:0 0 10px grey; 
+    -moz-box-shadow: 0 0 10px grey; 
+		box-shadow:0 0 10px grey;
+		margin: 100px auto;
+	}
+	#firstsection{
+		flex:1;
+		display: flex;
+		justify-content: space-between;
+		padding: 4px;
+		padding-left: 20px;
+		box-sizing: border-box;
+	}
+	#firstsection > #info{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	#barcode > img{
+		width: 100px;
+		padding-top: 15px;
+	}
+	#firstsection > #info > h5{
+		margin-bottom: 0;
+		color: #c64848;
+		font-size: 10px;
+	}
+	#firstsection > #info > p{
+		margin-top: 0;
+		color: #000;
+		font-size: 20px;
+	}
+	#secondsection{
+		display: flex;
+		flex-direction: column;
+		padding: 10px;
+		background-color: #c64848;
+	}
+	#placeInfo{
+		flex:1;
+		display: flex;
+		justify-content: space-around;
+	}
+	#placeInfo > div.place{
+		flex:1;
+		display: flex;
+		flex-direction: column;
+	}
+	#placeInfo > div.place > h2{
+		margin-bottom: 0;
+		font-size: 32px;
+		letter-spacing: 0.08em;
+		color: #fff;
+	}
+	#placeInfo > div.place > p{
+		margin-top: 0;
+		font-size: 10px;
+		color: #fff;
+	}
+	#placeInfo > div{
+		flex:2;
+		text-align: center;
+	}
+	#placeInfo > div > img{
+		padding-top:30px; 
+		width: 50px;
+	}
+	#secondsection > div.seperator{
+		width: 80%;
+		height: 0;
+		border-bottom: 1px solid white; 
+		margin: 4px auto;
+	}
+	#datesInfo{
+		display: flex;
+		justify-content: space-around;
+		text-align: center;
+	}
+	#datesInfo >  div.dates{
+		display: flex;
+		flex-direction: column;
+	}
+	#datesInfo > div.dates > h5{
+		margin-bottom: 8px;
+		font-size: 10px;
+		color: #b8b8b8;
+	}
+	#datesInfo > div.dates > p{
+		margin-top: 0;
+		color: #fff;
+		font-size: 12px;
+	}
+	#thirdsection{
+		display: flex;
+		justify-content: space-around;
+	}
+	div.flightInfo {
+		text-align: center;
+	}
+	div.flightInfo > h5{
+		margin-bottom: 0;
+		color: #b8b8b8;
+		font-size: 10px;
+	}
+	div.flightInfo > p{
+		margin-top: 0;
+	}
