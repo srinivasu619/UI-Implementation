@@ -1,0 +1,59 @@
+.mainContainer{
+			width: 650px;
+			margin: 0 auto;
+			margin-top: 50px;
+			display: flex;
+			justify-content: space-between;
+			font-family: 'Muli', sans-serif;
+			
+		}
+		.container{
+			width:260px;
+			height: 300px;
+			display:flex ;
+			flex-direction: column;
+			box-sizing: border-box;
+			-webkit-box-shadow:0 0 5px grey; 
+            -moz-box-shadow: 0 0 5px grey; 
+			box-shadow:0 0 5px grey;
+		}
+		.container:hover{
+			-webkit-box-shadow:0 0 24px grey; 
+            -moz-box-shadow: 0 0 24px grey; 
+			box-shadow:0 0 24px grey;
+		}
+		div.container > div.indicator{
+			flex: 2;
+			color: white;
+			text-align: center;
+		}
+		div.container > div.indicator > i{
+			padding-top: 20px;
+		}
+		#success{
+			background-color: #2dcc8a;
+		}
+		#failure{
+			background-color: #e74c3c;
+		}
+		div.container > div.info{
+			flex: 3;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;			
+			padding: 10px;
+			text-align: center;
+		}
+		div.container > div.info > h4{
+			margin-bottom: 0;
+		}
+		div.container > div.info > p
+		{
+			font-size: 12px;
+		}
+		div.container > div.message{
+			flex: 1;
+			background-color: grey;
+			color: white;
+			text-align: center;
+		}
