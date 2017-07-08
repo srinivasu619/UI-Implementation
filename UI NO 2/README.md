@@ -6,7 +6,7 @@ This is an Implmentation of the UI of the POP-UP Boxes.
 
 ## Live Example
 
-* [Codepen-Boarding Pass](https://codepen.io/skadoodle619/full/xrwJaG)
+* [Codepen-POP-UP BOXES](https://codepen.io/skadoodle619/full/xrwJaG)
 * If you like my work please like it and follow me on Codepen [@skadoodle619](https://codepen.io/skadoodle619/)
 
 ## Acknowledgments
