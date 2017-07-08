@@ -1,0 +1,72 @@
+
+		html{
+			background: #304352;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(#d7d2cc, #304352);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(#d7d2cc, #304352); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			height: 100%;
+		}
+		.maincontainer{
+			width: 375px;
+			height: 667px;
+			-webkit-box-shadow:0 0 20px grey; 
+            -moz-box-shadow: 0 0 20px grey; 
+		    box-shadow:0 0 20px grey;
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			padding: 10px;
+			box-sizing: border-box;
+			background: url('https://greenhatworld.com/wp-content/uploads/2015/04/Creepy-Forest-Road-iPhone-6-Plus-HD-Wallpaper1.jpg') no-repeat center;
+			background-size: cover;
+			/*font-family: 'Patrick Hand SC', cursive;*/
+			font-family: 'Nunito', sans-serif;
+			color: #fff;
+			margin: 0 auto;
+			margin-top: 50px;	
+
+		}
+		#firstsection{
+			flex:1;
+			display: flex;
+			justify-content: flex-end;
+			padding: 10px;
+		}
+		#firstsection > h1{
+			margin-top: 0;
+			cursor: pointer;
+		}
+		#secondsection{
+			flex:2;
+			display: flex;
+			flex-direction: column;
+			padding: 10px;
+		}
+		#secondsection > div{
+			padding: 8px;
+		}
+		#secondsection > div.seperator{
+			padding: 0;
+			width: 20%;
+			margin: 8px auto;
+			border: 1px solid #fff; 
+			background-color: #fff;
+		}
+		#thirdsection{
+			flex:4;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+		}
+		#custombutton{
+			padding: 8px;
+			border: 2px solid #fff;
+			width: 40%;
+			margin: 0 auto;
+			margin-bottom: 16px;
+			border-radius: 1.2em;
+			cursor: pointer;
+		}
+		#custombutton > h4{
+			margin: 0;
+		}
