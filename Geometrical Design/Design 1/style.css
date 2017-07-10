@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+#mainContainer{
+  width:650px;
+  height:650px;
+  margin:0 auto;
+  margin-top:20px;
+  background: linear-gradient(to bottom right, #d5feb8, #c1fd99); /* Standard syntax (must be last) */
+}
+/*  #b3fab4 #81db83*/
+.oneDimSame{
+  height:150px;
+}
+#middle{
+  height:350px;
+}
+#first > div{
+  width:149px;
+  height:inherit;
+  background-color:#fefeb8;
+}
+#middle > div{
+  width:350px;
+  height:inherit;
+  margin:0 auto;
+  background: linear-gradient(to right,#b3fab4, #81db83);
+}
+#last > div{
+  width:149px;
+  height:inherit;
+  float:right;
+  background-color:#fefeb8;
+}
