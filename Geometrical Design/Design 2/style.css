@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#mainContainer {
+  height: 100vh;
+  background: linear-gradient(to bottom left, #f4b8b8 80%, #f6c3c2);
+  font-size:96px;
+  text-align:center;
+  color:white;
+  font-family: 'Dosis', sans-serif;
+}
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 300px solid #c5ebf8;
+  border-right: 300px solid transparent;
+}
+#triangle-bottomright {
+  width: 0;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: 300px solid #c5ebf8;
+  border-left: 300px solid transparent;
+  float: right;
+}
