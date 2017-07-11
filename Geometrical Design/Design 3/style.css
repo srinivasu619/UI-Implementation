@@ -1,0 +1,23 @@
+* {
+  margin:0;
+  padding:0;
+}
+#mainContainer {
+  height: 100vh;
+  background:#2c3e50;
+}
+#mainContainer >h1{
+  position:fixed;
+  font-size:72px;
+  color:white;
+  letter-spacing:0.2em;
+  font-family: 'Lobster Two', cursive;
+  top:40%;
+  left:35%;
+}
+#triangle-topleft {
+  width: 0;
+  height: 0;
+  border-top: 100vh solid #2980B9;
+  border-right: 100vw solid transparent;
+}
