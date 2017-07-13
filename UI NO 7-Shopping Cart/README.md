@@ -1,4 +1,4 @@
-SHOPPING CART APP
+# SHOPPING CART APP
 
 * This is an Implmentation of the **SHOPPING CART APP**.
 * A Basic HTML Web APP using HTML CSS  JQUERY. It depicts basic working of the Shopping Cart. Local Storage of Browser is also used    for the storage functionality.
