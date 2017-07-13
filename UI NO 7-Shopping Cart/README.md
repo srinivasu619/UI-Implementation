@@ -16,3 +16,7 @@
 * HTML
 * CSS
 * Jquery and JavaScript
+
+## Credits
+* Icons by [Madebyoliver](http://www.flaticon.com/authors/madebyoliver)
+* Icon by [Nikita Golubev](http://www.flaticon.com/authors/nikita-golubev)
