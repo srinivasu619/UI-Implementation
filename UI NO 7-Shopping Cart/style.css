@@ -1,0 +1,56 @@
+		*{
+			font-family: 'Patrick Hand SC', cursive;
+		}
+		.header{
+			padding: 20px;
+		}
+		.header > h1{
+			display: inline;
+    		padding: 15px;
+    		font-size: 48px;
+		}
+		.header > img{
+			width: 60px;
+		}
+		.prodHeight{
+			height: 300px;
+			margin: 10px;
+			box-sizing: border-box;
+			border: 1px solid;
+		}
+		div.prodPicture{
+			height: 200px;
+			text-align: center;
+		}
+		div.prodPicture > img{
+			padding-top: 25px;
+			width:150px;
+		}
+		div.prodInfo{
+			height: 50px;
+		}
+		.decrease,.increase,.remove{
+			cursor: pointer;
+			font-size: 20px;
+			border: 1px solid;
+    		padding: 4px;
+    		background-color: burlywood;
+		}
+		.container{
+			text-align: center;
+		}
+		div.row > div.col-md-3,div.col-md-6{
+			border: 1px solid;
+		}
+		div.row > div.col-md-6{
+			border-left: 0;
+			border-right: 0; 
+		}
+		#shopHead{
+			border: 2px dotted black;
+			font-size: 36px;
+		}
+		thead{
+			font-size: 28px;
+			text-align: center;
+		}
