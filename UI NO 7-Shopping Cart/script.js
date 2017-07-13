@@ -4,6 +4,7 @@ var products = [{name: "PRODUCT 1",price: 425},{name: "PRODUCT 2",price: 225},{n
 function refreshProducts(){
 	for (var i = 0; i < cart.length; i++) {
 		$("#prod"+(cart[i].index+1)).prop('disabled',true);
+		$("#prod"+(cart[i].index+1)).text('CHECK THE CART');
 	}
 }
 function retrieve(){
@@ -67,6 +68,7 @@ function refreshCart(){
 		var index =parseInt($(this).attr('product-id'));
 		var enableProduct=index+1;
 		$("#prod"+enableProduct).prop('disabled',false);
+		$("#prod"+enableProduct).text('ADD TO CART');
 		cart.splice(id,1);
 		saveCart();
 		refreshCart();
