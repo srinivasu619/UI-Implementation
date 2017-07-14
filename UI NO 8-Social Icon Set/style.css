@@ -1,0 +1,43 @@
+h1{
+  font-family: 'Yanone Kaffeesatz', cursive;
+  font-size:72px;
+  text-align:center;
+}
+div.mainContainer{
+  width:700px;
+  height:150px;
+  display:flex;
+  justify-content:space-around;
+  margin:0 auto;
+  align-items:center;
+}
+div.circle{
+  height:70px;
+  width:70px;
+  border-radius:50%;
+  color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#youtube{
+  border:3px solid #e3482c;
+  background:#ef5350;
+}
+#facebook{
+  border:3px solid #303f9f;
+  background:#2980B9;
+}
+#instagram{
+  border:3px solid white;
+  background: linear-gradient(to bottom right, #4864d8,#ae2bad,#e32159,#fa6746,#fec053);
+}
+#snapchat{
+  border:3px solid #fdd835;
+  background:#ffdf55;
+}
+#whatsapp{
+  border:3px solid #20a83e;
+  background:#1bd741;
+}
