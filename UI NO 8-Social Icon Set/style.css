@@ -1,9 +1,9 @@
 h1{
-  font-family: 'Yanone Kaffeesatz', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size:72px;
   text-align:center;
 }
-div.mainContainer{
+.mainContainer{
   width:700px;
   height:150px;
   display:flex;
@@ -19,25 +19,46 @@ div.circle{
   display:flex;
   align-items:center;
   justify-content:center;
+  cursor:pointer;
 }
 
 #youtube{
   border:3px solid #e3482c;
   background:#ef5350;
+  transition:all 1s ease-out;
+}
+#youtube:hover{
+   box-shadow: 0 0 100px #ef5350;
 }
 #facebook{
   border:3px solid #303f9f;
   background:#2980B9;
+  transition:all 1s ease-out;
+}
+#facebook:hover{
+   box-shadow: 0 0 100px #2980B9;
 }
 #instagram{
   border:3px solid white;
   background: linear-gradient(to bottom right, #4864d8,#ae2bad,#e32159,#fa6746,#fec053);
+  transition:all 1s ease-out;
+}
+#instagram:hover{
+   box-shadow: 0 0 100px #ae2bad;
 }
 #snapchat{
   border:3px solid #fdd835;
   background:#ffdf55;
+  transition:all 1s ease-out;
+}
+#snapchat:hover{
+   box-shadow: 0 0 100px #ffdf55;
 }
 #whatsapp{
   border:3px solid #20a83e;
   background:#1bd741;
+  transition:all 1s ease-out;
+}
+#whatsapp:hover{
+   box-shadow: 0 0 100px #1bd741;
 }
