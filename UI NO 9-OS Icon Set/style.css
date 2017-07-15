@@ -1,0 +1,56 @@
+h1{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size:72px;
+  text-align:center;
+}
+.mainContainer{
+  width:700px;
+  height:150px;
+  display:flex;
+  justify-content:space-around;
+  margin:0 auto;
+  align-items:center;
+}
+div.circle{
+  height:70px;
+  width:70px;
+  border-radius:50%;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+}
+#apple{
+  border:3px solid #7F8C8D;
+  background:#BDC3C7;
+  transition:all 0.5s ease-out;
+}
+#apple:hover{
+   box-shadow: 0 0 100px #7F8C8D;
+}
+#android{
+  border:3px solid #27AE60;
+  background:#2ECC71;
+  transition:all 0.5s ease-out;
+}
+#android:hover{
+   box-shadow: 0 0 100px #27AE60;
+}
+#windows{
+  border:3px solid #2980B9;
+  background:#3498DB;
+  transition:all 0.5s ease-out;
+}
+#windows:hover{
+   box-shadow: 0 0 100px #2980B9;
+}
+#linux{
+  color:#2C3E50;
+  border:3px solid #F39C12;
+  background:#F1C40F;
+  transition:all 0.5s ease-out;
+}
+#linux:hover{
+   box-shadow: 0 0 100px #F39C12;
+}
