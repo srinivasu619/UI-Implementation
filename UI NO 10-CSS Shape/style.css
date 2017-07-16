@@ -25,12 +25,12 @@ body{
 }
 #first{
     top:50%;
-    left: 20%;
+    left: 10%;
     transform: translate(-50%,-50%);
 }
 #second{
     top:50%;
-    left: 40%;
+    left: 25%;
     transform: translate(-50%,-50%);
 }
 #second,#second:before,#second:after{
@@ -39,9 +39,19 @@ body{
 }
 #third{
     top:50%;
-    left: 60%;
+    left: 40%;
     transform: translate(-50%,-50%);
 }
 #third,#third:before,#third:after{
     background:rgba(48, 141, 255, 0.5);
+}
+#fourth{
+    top:50%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+}
+#fourth,#fourth:before,#fourth:after{
+    background:rgba(48, 141, 255, 0.5);
+       border: 1px solid #fff;
+
 }
