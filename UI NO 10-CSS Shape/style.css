@@ -9,9 +9,6 @@ body{
     height: 109px;
     background: #fff;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 .hexagon:before,.hexagon:after{
     content: '';
@@ -25,4 +22,18 @@ body{
 }
 .hexagon:after{
     transform:rotate(-60deg);
+}
+#first{
+    top:50%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+}
+#second{
+    top:50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+}
+#second,#second:before,#second:after{
+    background: transparent;
+    border: 1px solid #fff;
 }
