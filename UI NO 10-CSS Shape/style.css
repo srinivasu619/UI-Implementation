@@ -53,5 +53,14 @@ body{
 #fourth,#fourth:before,#fourth:after{
     background:rgba(48, 141, 255, 0.5);
        border: 1px solid #fff;
-
+}
+#fifth{
+    top:50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+#fifth,#fifth:before,#fifth:after{
+    background:rgba(48, 141, 255, 0.5);
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
 }
