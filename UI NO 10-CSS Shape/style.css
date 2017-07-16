@@ -52,7 +52,7 @@ body{
 }
 #fourth,#fourth:before,#fourth:after{
     background:rgba(48, 141, 255, 0.5);
-       border: 1px solid #fff;
+    border: 1px solid #fff;
 }
 #fifth{
     top:50%;
@@ -63,4 +63,45 @@ body{
     background:rgba(48, 141, 255, 0.5);
     border-left: 1px solid #fff;
     border-right: 1px solid #fff;
+}
+#sixth{
+    top:50%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+}
+#sixth,#sixth:before,#sixth:after{
+    background:rgba(48, 141, 255, 0.5);
+    border: 1px solid #fff;
+}
+span{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    z-index: 2;
+    background: #fff;
+}
+span:nth-child(1){
+    top: -6px;
+    left: -6px;
+}
+span:nth-child(2){
+    top: -6px;
+    right: -6px;
+}
+span:nth-child(3){
+    top: 104px;
+    left: -6px;
+}
+span:nth-child(4){
+    top: 104px;
+    right: -6px;
+}
+span:nth-child(5){
+   top: -59px;
+   right: 89px;
+}
+span:nth-child(6){
+   top: 159px;
+   right: 89px;
 }
