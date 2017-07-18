@@ -7,34 +7,51 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway|Raleway+Dots" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Exo|Merriweather+Sans" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+        <link rel="stylesheet" href="style.css">
+        <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
     </head>
     <body>
             <div class="container">
                 <div id="left">
                     <h1>SPECTRE</h1>
                     <div id="info">
-                    <ul id="menu">
-                        <li>2015</li>
-                        <li>148 min</li>
-                        <li>Action&nbsp;&nbsp;&nbsp;|</li>
-                        <li>Adventure&nbsp;&nbsp;&nbsp;|</li>
-                        <li>Thriller</li>
-                    </ul>
+                        <ul id="menu">
+                            <li>2015</li>
+                            <li>148 min</li>
+                            <li>Action&nbsp;&nbsp;&nbsp;|</li>
+                            <li>Adventure&nbsp;&nbsp;&nbsp;|</li>
+                            <li>Thriller</li>
+                        </ul>
                     </div>
                     <div id = "rating">
-                    <h3>IMDb Rating:</h3>
-                    <div id="container"></div>
+                        <h3>IMDb Rating:</h3>
+                        <div id="container"></div>
                     </div>
                 </div>
                 <div id="right">
                     A cryptic message from Bond's past sends him on a trail to uncover a sinister organization. While M battles political forces to keep the secret service alive, Bond peels back the layers of deceit to reveal the terrible truth behind SPECTRE.
                     <div id="trailer">
-                    <i class="fa fa-play" aria-hidden="true"></i>
-                    <h4>WATCH TRAILER<h4>
+                        <i class="fa fa-play" aria-hidden="true"></i>
+                        <h4>WATCH TRAILER<h4>
                     </div>
                 </div>
                 </div>
+                <script>
+                    var bar = new ProgressBar.Circle(container, {
+                    strokeWidth: 10,
+                    easing: 'easeInOut',
+                    duration: 1400,
+                    color: '#E74C3C',
+                    trailColor: '#BDC3C7',
+                    trailWidth: 5,
+                    svgStyle: null
+                    });
 
+                    bar.setText('6.8');
+                    bar.text.style.fontFamily = '"Raleway", Helvetica, sans-serif';
+                    bar.text.style.fontSize = '0.9rem';
+                    bar.text.style.color='#ECF0F1';
+                    bar.animate(0.68); 
+                </script>
     </body>
 </html>

@@ -65,8 +65,9 @@ div.container{
   border:3px solid #1ABC9C;
   color:#1ABC9C;
   border-radius:1.2em;
-  width:65%;
+  width:70%;
   padding:6px;
+  padding-left: 15px;
   display:flex;
   justify-content:space-around;
   cursor:pointer;
