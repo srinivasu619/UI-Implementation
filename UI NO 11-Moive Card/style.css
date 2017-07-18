@@ -1,0 +1,81 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+div.container{
+  width:881.6px;
+  height:522.4px;
+  border:1px solid black;
+  margin:50px auto;
+  background-image:url("http://i.imgrpost.com/imgr/2017/07/18/bond.jpg");
+  background-size: cover;
+  display:flex;
+}
+#left{
+  width:50%;
+  font-family: 'Raleway', sans-serif;
+  color:white;
+}
+#left > h1{
+  letter-spacing:0.5em;
+  font-size:54px;
+  padding-left:16px;
+  padding-top:16px;
+}
+#info{
+  padding-top:15px;
+  padding-left:16px;
+  font-size:14px;
+/*   font-family: 'Merriweather Sans', sans-serif; */
+  font-family: 'Exo', sans-serif;
+}
+#info > ul#menu li {
+    display:inline;
+    padding-right:8px;
+    letter-spacing:0.1em;
+}
+#container {
+  margin: 20px;
+  width: 50px;
+  height: 50px;
+}
+#rating {
+  display:flex;
+  padding-left:25px;
+}
+#rating > h3{
+  padding-top:35px;
+  font-size:14px;
+}
+#right{
+  width:50%;
+  padding-top:100px;
+  font-size:18px;
+  padding-left:120px;
+  padding-right:10px;
+  font-family: 'Raleway Dots', sans-serif;
+  color:white;
+/*   font-weight:bold; */
+}
+#trailer{
+  margin-top:50px;
+  margin-left:20px;
+  border:3px solid #1ABC9C;
+  color:#1ABC9C;
+  border-radius:1.2em;
+  width:65%;
+  padding:6px;
+  display:flex;
+  justify-content:space-around;
+  cursor:pointer;
+}
+#trailer > h4{
+  padding-left:10px;
+  font-size:18px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bolder;
+}
