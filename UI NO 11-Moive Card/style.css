@@ -3,14 +3,29 @@
   padding:0;
   box-sizing:border-box;
 }
-
+#mainContainer{
+  height:800px;
+  background-image:url("http://i.imgrpost.com/imgr/2017/07/18/bond.jpg");
+  background-size: cover;
+  display: block;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 800px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
 div.container{
   width:881.6px;
   height:522.4px;
-  border:1px solid black;
-  margin:50px auto;
   background-image:url("http://i.imgrpost.com/imgr/2017/07/18/bond.jpg");
   background-size: cover;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
+  position: fixed;
+  top: 100px;
+  left: 320px;
+  z-index: 2;
   display:flex;
 }
 #left{
@@ -79,4 +94,5 @@ div.container{
   justify-content:center;
   align-items:center;
   font-weight:bolder;
+  font-family: 'Raleway', sans-serif;
 }
