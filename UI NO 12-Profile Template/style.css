@@ -1,0 +1,99 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color:#F1C40F;
+}
+#cardContainer{
+  margin:0 auto;
+  margin-top:20px;
+  height:650px;
+  width:350px;
+  border-radius:0.5em;
+  display:flex;
+  flex-direction:column;
+  background-color:#3e4148;
+  box-shadow: 0 0 50px #000000;
+}
+#cardContainer > #profile{
+  flex:1;
+  border-top-left-radius:0.5em;
+  border-top-right-radius:0.5em;
+  display:flex;
+  align-items:center;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:#fff;
+}
+#profile > #profilepicture{
+  flex:1;
+  border:2px solid hotpink;
+  height:75px;
+  background-color:lightpink;
+  border-radius:0.5em;
+}
+#profile > #nameInfo{
+  flex:3;
+  border:2px solid #1565c0;
+  height:75px;
+  margin-left:8px;
+  background-color:#bbdefb;
+  border-radius:0.5em;
+}
+#cardContainer > #stats
+{
+  flex:3;
+  border-bottom-left-radius:0.5em;
+  border-bottom-right-radius:0.5em;
+  padding:20px;
+  display:flex;
+  justify-content:space-around;
+  flex-direction:column;
+}
+#stats > #statspart1{
+  flex:1;
+  margin-bottom:16px;
+  border-radius:0.5em;
+  display:flex;
+  flex-direction:column;
+}
+#stats > #statspart2{
+  flex:1;
+  margin-bottom:16px;
+  border-radius:0.5em;
+  display:flex;
+  flex-direction:column;
+}
+#stats > #statspart3{
+  flex:3; 
+  border-radius:0.5em;
+  display:flex;
+  flex-direction:column;
+}
+
+.statsheader{
+  flex:1;
+  background-color:white;
+  border-top-left-radius:0.5em;
+  border-top-right-radius:0.5em;
+}
+.statsvalue{
+  flex:2;
+  border-bottom-left-radius:0.5em;
+  border-bottom-right-radius:0.5em;
+  background-color:#575b67;
+}
+#statspart3 > .statsvalue{
+  flex:8;
+  display:flex;
+  justify-content:space-around;
+  flex-direction:column;
+  padding:10px;
+}
+#statspart3 > .statsvalue > div {
+  background-color:white;
+  border-radius:0.5em;
+  height:15%;
+}
