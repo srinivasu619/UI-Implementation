@@ -20,6 +20,13 @@
 #mainContainer > #goal{
   flex:6;
   background-color:aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#goal > div{
+    height: 80%;
+    width: 183.88px;
 }
 #mainContainer > #nutrients{
   flex:2;
