@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mainContainer{
+  height:500px;
+  width:350px;
+  border:1px solid black;
+  display:flex;
+  flex-direction:column;
+}
+#mainContainer > #date{
+  flex:2;
+  background-color:cyan;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#mainContainer > #goal{
+  flex:6;
+  background-color:aliceblue;
+}
+#mainContainer > #nutrients{
+  flex:2;
+  background-color:lightpink;
+}
+#mainContainer > #calorie{
+  flex:3;
+  background-color:cyan;
+}
