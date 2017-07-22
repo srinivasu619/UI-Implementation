@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Athiti', sans-serif;
+    font-weight: bolder;
 }
 #mainContainer{
   height:500px;
@@ -13,6 +15,7 @@
 #mainContainer > #date{
   flex:2;
   background-color:cyan;
+  padding: 8px;
   display:flex;
   justify-content:center;
   align-items:center;
