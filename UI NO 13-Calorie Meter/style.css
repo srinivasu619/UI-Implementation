@@ -6,19 +6,19 @@
     font-weight: bolder;
 }
 #mainContainer{
-  height:500px;
+  height:600px;
   width:350px;
-  border:1px solid black;
+  background-color: #333333;
   display:flex;
   flex-direction:column;
 }
 #mainContainer > #date{
   flex:2;
-  background-color:cyan;
   padding: 8px;
   display:flex;
   justify-content:center;
   align-items:center;
+  color: white;
 }
 #mainContainer > #goal{
   flex:6;
@@ -27,8 +27,10 @@
   align-items: center;
 }
 #goal > div{
-    height: 80%;
+    height: 65%;
     width: 183.88px;
+    border-radius: 50%;
+    box-shadow: 0 0 100px #5a5a59;
 }
 #mainContainer > #nutrients{
   flex:2;
@@ -41,6 +43,7 @@
     height: 80%;
     display: flex;
     padding: 4px;
+    color: white;
 }
 #wrapper > .progressbars{
     flex: 2;
@@ -55,5 +58,32 @@
 }
 #mainContainer > #calorie{
   flex:3;
-  background-color:cyan;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+#calWrapper{
+  width: 75%;
+  height: 70%;
+  display: flex;
+  background-color: #b07dfc;
+  color: white;
+}
+#calWrapper > div{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#raised{
+  background-color: white;
+  position: relative;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  color: black;
+}
+#raised > p{
+  color: #b9b9b9;
 }
