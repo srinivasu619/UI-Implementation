@@ -34,6 +34,24 @@
 #mainContainer > #nutrients{
   flex:2;
   background-color:lightpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nutrients > #wrapper{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    border: 1px solid black;
+    padding: 4px;
+}
+#wrapper > .progressbars{
+    flex: 2;
+    border-right: 1px solid black;
+}
+#wrapper > .info{
+    flex: 5;
+    border-right: 1px solid black;
 }
 #mainContainer > #calorie{
   flex:3;
