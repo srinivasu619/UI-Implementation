@@ -22,7 +22,6 @@
 }
 #mainContainer > #goal{
   flex:6;
-  background-color:aliceblue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,7 +32,6 @@
 }
 #mainContainer > #nutrients{
   flex:2;
-  background-color:lightpink;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,16 +40,18 @@
     width: 90%;
     height: 80%;
     display: flex;
-    border: 1px solid black;
     padding: 4px;
 }
 #wrapper > .progressbars{
     flex: 2;
-    border-right: 1px solid black;
+    padding: 8px;
 }
 #wrapper > .info{
     flex: 5;
-    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:12px; 
 }
 #mainContainer > #calorie{
   flex:3;

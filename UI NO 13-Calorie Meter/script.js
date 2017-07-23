@@ -13,22 +13,22 @@ bar.text.style.fontSize = '1rem';
 bar.text.style.color='#000';
 bar.animate(0.68); 
  var bar1 = new ProgressBar.Circle(protien, {
-                    strokeWidth: 5,
+                    strokeWidth: 10,
                     easing: 'easeInOut',
                     duration: 1400,
-                    color: 'red',
-                    trailColor: '#595959',
-                    trailWidth: 4,
+                    color: '#b0f9f7',
+                    trailColor: '#4d4d4d',
+                    trailWidth: 9,
                     svgStyle: null
                     });
-bar1.animate(0.68); 
+bar1.animate(61/131); 
 var bar2 = new ProgressBar.Circle(carbs, {
-                    strokeWidth: 5,
+                    strokeWidth: 10,
                     easing: 'easeInOut',
                     duration: 1400,
-                    color: 'red',
-                    trailColor: '#595959',
-                    trailWidth: 4,
+                    color: '#f7bfa4',
+                    trailColor: '#4d4d4d',
+                    trailWidth: 9,
                     svgStyle: null
                     });
-bar2.animate(0.68); 
+bar2.animate(129/525); 
