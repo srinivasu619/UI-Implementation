@@ -5,12 +5,18 @@
     font-family: 'Athiti', sans-serif;
     font-weight: bolder;
 }
+body{
+  background-color:#b6ffb8;
+}
 #mainContainer{
   height:600px;
   width:350px;
   background-color: #333333;
   display:flex;
   flex-direction:column;
+  margin:0 auto;
+  margin-top:50px;
+  box-shadow:0 0 100px #333333;
 }
 #mainContainer > #date{
   flex:2;

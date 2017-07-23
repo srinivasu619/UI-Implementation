@@ -11,7 +11,7 @@ bar.setText('&nbsp;&nbsp;&nbsp;&nbsp;3039 <br> Your Goal');
 bar.text.style.fontFamily = '"Athiti", sans-serif';
 bar.text.style.fontSize = '1rem';
 bar.text.style.color='#fff';
-bar.animate(0.68); 
+bar.animate(2292/3039); 
  var bar1 = new ProgressBar.Circle(protien, {
                     strokeWidth: 10,
                     easing: 'easeInOut',
