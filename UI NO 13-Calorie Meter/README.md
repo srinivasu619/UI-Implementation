@@ -18,5 +18,5 @@
 
 * HTML
 * CSS
-* JS (Progress Bar JS)
+* JS-[Progress Bar JS](https://kimmobrunfeldt.github.io/progressbar.js/)
 

@@ -6,7 +6,7 @@
     font-weight: bolder;
 }
 body{
-  background-color:#b6ffb8;
+  background: linear-gradient(to right,#b3fab4, #81db83);
 }
 #mainContainer{
   height:600px;
