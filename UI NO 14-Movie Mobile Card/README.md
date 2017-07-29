@@ -2,7 +2,7 @@
 
  This is my Design and Implmentation of the UI of the **Movie Mobile Card UI**.
 
-![Screenshot2017-07-2923.57.24.png](http://i.imgrpost.com/imgr/2017/07/29/Screenshot2017-07-2923.57.24.png)
+![Screenshot2017-07-3000.54.01.png](http://i.imgrpost.com/imgr/2017/07/29/Screenshot2017-07-3000.54.01.png)
 
 ## Live Example
 
