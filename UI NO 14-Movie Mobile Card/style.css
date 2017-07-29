@@ -3,8 +3,8 @@
   font-family: 'Nunito', sans-serif;
 }
 #mainConatiner{
-  width:370px;
-  height:700px;
+  width:400px;
+  height:750px;
    background-image:url("http://i.imgrpost.com/imgr/2017/07/29/bond4.jpg");
   background-size: cover;
   background-position: -44px -10px;
@@ -18,12 +18,12 @@
 #description{
   height:300px;
   background-color:white;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
   clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
   display:flex;
   flex-direction:column;
   padding-top:40px;
-  padding-bottom: 20px;
+  padding-bottom:20px;
   justify-content:center;  
 }
 #title{
@@ -47,4 +47,20 @@ ul#menu li {
     display:inline;
     color:#d35400;
   font-weight:bolder;
+}
+#buttons{
+  height:70px;
+  background-color:#000;
+  display:flex;
+  justify-content:space-between;
+/*   align-items:center; */
+}
+#buttons > div{
+  width:49.9%;
+  padding:8px;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+/*   color:white; */
+  background-color:#f39c12;
 }
