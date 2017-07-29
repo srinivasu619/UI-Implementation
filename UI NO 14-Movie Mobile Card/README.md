@@ -13,6 +13,5 @@
 
 * HTML
 * CSS
-* ProgressBar JS
-* FontAwsome
+
 
