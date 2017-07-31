@@ -1,0 +1,34 @@
+*{
+  font-family: 'Varela Round', sans-serif;
+  box-sizing:border-box;
+}
+#mainContainer{
+  width:350px;
+  height:600px;
+  border:1px solid black;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+}
+#header{
+  flex:1;
+  background-color:cyan;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#city{
+  flex:1;
+  background-color:lightpink;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#tempInfo{
+  flex:4;
+  background-color:hotpink;
+}
+#weatherinfo{
+  flex:6;
+  background-color:lightgreen;
+}
