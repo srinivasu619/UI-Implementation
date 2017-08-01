@@ -1,33 +1,40 @@
 *{
+  margin:0;
+  padding:0;
   font-family: 'Varela Round', sans-serif;
   box-sizing:border-box;
+}
+body{
+  background-color:#2ecc71;
 }
 #mainContainer{
   width:350px;
   height:600px;
-  border:1px solid black;
   margin:0 auto;
   display:flex;
   flex-direction:column;
-}
-#header{
-  flex:1;
-  background-color:cyan;
-  display:flex;
-  justify-content:center;
-  align-items:center;
+  margin-top:75px;
 }
 #city{
-  flex:1;
-  background-color:lightpink;
+  flex:2;
+  background-color:#2c3e50;
   display:flex;
+  color:#ecf0f1;
   justify-content:center;
   align-items:center;
+}
+#city > img{
+  height:50px;
+  width:50px;
+}
+#city >span{
+  padding-left:20px;
 }
 #tempInfo{
   flex:4;
-  background-color:hotpink;
+  background-color:#3498db;
   display: flex;
+  color:#ecf0f1;
   justify-content:center;
   align-items:center;
 }
@@ -38,6 +45,10 @@
   display:flex;
   justify-content:space-around;
 }
+#wrapper > img{
+  width:100px;
+  height:100px;
+}
 #wrapper > div > h4{
   margin:0;
   margin-top:12px;
@@ -47,12 +58,19 @@
   margin:0;
 }
 #weatherinfo{
-  flex:6;
-  background-color:lightgreen;
+  flex:4;
+  padding:8px;
+  background-color:#95a5a6;
+  color:#ecf0f1;
 }
 #range{
   display:flex;
+  width:80%;
+  margin:0 auto;
   flex-direction:column;
+  border:2px solid #ecf0f1;
+  border-radius:1.2em;
+  padding:4px;
 }
 #range > h4{
   margin:0;
@@ -65,8 +83,10 @@
 }
 #range >div > h5{
   margin:0;
+  border-top:1px solid #ecf0f1;
+  padding-top:4px;
 }
-#wind{
+/* #wind{
  width:80%;
   height:100px;
   margin:0 auto;
@@ -77,4 +97,26 @@
 #wind > div > h5{
   margin:0;
   padding:8px;
+} */
+.common{
+  width:80%;
+  height:100px;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-around;
+  padding:8px;
+}
+.common > div > h5{
+  margin:0;
+  padding:8px;
+}
+.common > img
+{
+  width:50px;
+  height:50px;
+  position:relative;
+  top:8px;
+}
+#wind > img{
+  left:18px;
 }
