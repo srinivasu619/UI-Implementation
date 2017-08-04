@@ -1,0 +1,78 @@
+*{
+  box-sizing:border-box;
+}
+body{
+  background-color:#9B59B6;
+}
+#mainContainer{
+  width:500px;
+  margin:0 auto;
+  box-shadow: 0 0 50px #000000
+}
+#header
+{
+  color:white;
+  background-color:#4b367c;
+  padding:10px;
+}
+#header > span{
+  padding-left:20px;
+  font-size:20px;
+  position:relative;
+  bottom:20px;
+  font-family: 'Press Start 2P', cursive;
+}
+.streamer{
+  display:flex;
+  padding:10px;
+  color:#4b367c;
+  font-family: 'Passion One', cursive;
+  font-size:24px;
+}
+#streamerConatiner{
+  padding:10px;
+  background-color:#fff;
+}
+.streamer > .profileImg{
+  flex:1;
+}
+.streamer > .profileName{
+  flex:2;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.streamer > .status{
+  flex:1;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:12px;
+  font-family:cursive;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight:bolder;
+}
+.streamer > .status > span{
+  position:relative;
+  top:2px;
+  border:1px solid;
+  padding:4px 8px 4px 8px;
+  border-radius:1.2em;
+}
+.online{
+  color:#2ECC71;
+}
+.offline{
+  color:#E74C3C;
+}
+.profileImg > img{
+  width:70px;
+  height:70px;
+  border-radius:50%;
+}
+div.seperator{
+  width:95%;
+  margin:0 auto;
+  border:0.5px solid #95A5A6;
+  
+}
