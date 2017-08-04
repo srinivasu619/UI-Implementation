@@ -6,7 +6,7 @@
 
 ## Credits
  Icons credit
-* www.flaticon.com/authors/madebyoliver
+*  https://www.flaticon.com/authors/madebyoliver
 * https://www.flaticon.com/authors/freepik
 
 ## Live Example
