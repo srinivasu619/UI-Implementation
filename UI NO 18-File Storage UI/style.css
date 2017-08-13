@@ -1,22 +1,45 @@
+*{
+  font-family: 'Quicksand', sans-serif;
+}
+body{
+  background: #8d95d3;  
+}
 #mainConatiner{
-  width:500px;
-  border:1px solid black;
+  width:550px;
   box-sizing:border-box;
-  padding:16px;
   margin:0 auto;
+  margin-top:100px;
+  border-radius:0.5em;
+  box-shadow: 0 0 50px rgba(0,0,0,0.6);
 }
 h3{
   text-align:center;
   margin:0;
-  padding:10px;
+  padding:24px;
+  background-color:#dfff98;
+  color:#869e56;
+  border-top-left-radius:0.5em;
+  border-top-right-radius:0.5em;
+}
+#offer{
+  font-size:10px;
+  color:#3498db;
 }
 #storageinfo{
   display:flex;
   justify-content:space-around;
+  padding:16px;
+  background-color:#fff;
 }
 .storageinfounit{
-  width:45%;
-  padding:16px;
+  width: 40%;
+  padding: 16px;
+  border: 2px solid #8781bd;
+  border-radius:1.2em;
+}
+.storageinfounit > h4{
+  color:#c4c4c4;
+  margin-top:0;
 }
 #itemsList{
   display:flex;
@@ -25,7 +48,6 @@ h3{
   height:150px;
 }
 .fileInfo{
-  border:1px solid;
   display:flex;
 }
 #storageStatus{
@@ -36,9 +58,60 @@ h3{
 }
 #storageAttr{
   display:flex;
-  border:1px solid;
 }
 .fileAttr >h5,.fileAttr >p{
   margin:0;
   padding:4px 8px;
+}
+#navigation > p{
+  margin:0;
+  padding:4px 8px;
+  font-size:12px;
+}
+#navigation > p > a{
+  text-decoration:none;
+  color:#3498db;
+  font-weight:bolder;
+}
+.fileInfo{
+  padding:8px;
+}
+.fileImg{
+  display:flex;
+  align-items:center;
+}
+.fileImg > img{
+  height:50px;
+  width:50px;
+}
+.fileAttr > p{
+  font-size:12px;
+  font-weight:bolder;
+  color:#9590c2;
+}
+#actions{
+  height:40px;
+  display:flex;
+  padding:12px 22px;
+  background-color:#f2f2f2;
+  justify-content:flex-end;
+  align-items:center;
+  border-bottom-left-radius:0.5em;
+  border-bottom-right-radius:0.5em;
+}
+#button
+{
+  background-color:#8781bd;
+  width:100px;
+  height:20px;
+  padding:8px;
+  text-align:center;
+  border-radius:0.5em;
+  color:white;
+  font-size:14px;
+}
+#usedPercent{
+/*   width:80%; */
+  margin:0 auto;
+  height:8px;
 }
