@@ -1,0 +1,44 @@
+#mainConatiner{
+  width:500px;
+  border:1px solid black;
+  box-sizing:border-box;
+  padding:16px;
+  margin:0 auto;
+}
+h3{
+  text-align:center;
+  margin:0;
+  padding:10px;
+}
+#storageinfo{
+  display:flex;
+  justify-content:space-around;
+}
+.storageinfounit{
+  width:45%;
+  padding:16px;
+}
+#itemsList{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  height:150px;
+}
+.fileInfo{
+  border:1px solid;
+  display:flex;
+}
+#storageStatus{
+  display:flex;
+  flex-direction:column;
+  justify-content:space-around;
+  height:150px;
+}
+#storageAttr{
+  display:flex;
+  border:1px solid;
+}
+.fileAttr >h5,.fileAttr >p{
+  margin:0;
+  padding:4px 8px;
+}
