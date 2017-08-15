@@ -1,0 +1,11 @@
+body{
+  height: 80vh;
+  width:80vw;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:auto;
+}
+.type-wrap {
+	font-size: 30px;
+}
