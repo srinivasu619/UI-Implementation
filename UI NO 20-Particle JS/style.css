@@ -4,7 +4,37 @@ body {
   margin: 0;
   font:normal 75% Arial, Helvetica, sans-serif;
 }
-
+#text{
+  position:absolute;
+  font-size:36px;
+  color:#000;
+  top:40%;
+  left:14%;
+  z-index:2;
+  font-family: 'Shrikhand', cursive;
+}
+#white{
+      width: 326px;
+    height: 188px;
+  background: #fff;
+  position:absolute;
+  top:50%;
+  left: 22%;
+  transform: translate(-50%,-50%);
+}
+#white:before,#white:after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    position: absolute;
+}
+#white:before{
+    transform:rotate(60deg);
+}
+#white:after{
+    transform:rotate(-60deg);
+}
 canvas {
   display: block;
   vertical-align: bottom;
