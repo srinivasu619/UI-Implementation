@@ -1,0 +1,18 @@
+#productContainer{
+  width:700px;
+  height:600px;
+  border:1px solid black;
+  margin:0 auto;
+  display: flex;
+}
+#productContainer > div{
+  flex:1;
+}
+#productImg{
+  border-right:0.5px solid;
+  background-color:lightpink;
+}
+#productDesc{
+  border-left:0.5px solid;
+  background-color:aliceblue;
+}
