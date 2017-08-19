@@ -1,18 +1,145 @@
-#productContainer{
-  width:700px;
-  height:600px;
-  border:1px solid black;
-  margin:0 auto;
-  display: flex;
+body{
+  background-color:#f1c40f;
 }
-#productContainer > div{
+#productContainer{
+  width:950px;
+  height:650px;
+  margin:0 auto;
+  box-sizing:border-box;
+  background-color:#fff;
+  padding:20px;
+  margin-top:50px;
+}
+#productDetails{
+  width:100%;
+  height:85%;
+  display:flex;
+}
+#productDetails > div{
   flex:1;
 }
-#productImg{
-  border-right:0.5px solid;
-  background-color:lightpink;
+#mainlogo{
+  position:relative;
+  top: 80px;
+  z-index: 0;
+}
+#mainlogo>h1{
+  text-align:center;
+  font-size:72px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:bolder;
+  margin:0;
+  color:rgba(5,160,207,0.6);
+  font-style: italic;
+  font-weight: 700;
 }
 #productDesc{
-  border-left:0.5px solid;
-  background-color:aliceblue;
+  padding:10px;
+  font-family: 'Quicksand', sans-serif;
+}
+#productDesc > h1 {
+  font-style: italic;
+  font-weight: 700;
+  font-size:36px;
+}
+#productDesc > h4{
+   color:rgba(5,160,207,0.6);
+}
+#productDesc > p{
+  color:#7f8c8d;
+}
+#image > img{
+  width:600px;
+}
+#sizeLabel{
+  width:80%;
+  margin:0 auto;
+  display:flex;
+  justify-content:space-between;
+  padding:10px;
+}
+#sizeLabel > h4{
+  margin:0;
+}
+#sizeLabel > h6{
+  color:#3498db;
+  margin:0;
+}
+#rating{
+  display:flex;
+  padding:8px;
+  justify-content:space-around;
+  align-items:center;
+}
+#rating > span{
+  font-size:12px;
+  font-weight:600;
+}
+#rating > ul{
+  list-style: none;
+  display:flex;
+  margin:0;
+  padding:0;
+}
+#rating > ul > li{
+  padding-right:4px;
+}
+.yellow{
+  color:#f1c40f;
+}
+.grey{
+  color:#bdc3c7;
+}
+.sizeList{
+  list-style: none;
+  width:80%;
+  margin: 0 auto;
+  padding:8px;
+  display:flex;
+  justify-content:space-around;
+  color:#e74c3c;
+  font-weight:600;
+}
+.sizeList >li{
+  width:40px;
+  height:40px;
+  border:3px solid;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  cursor:pointer;
+}
+#action{
+  width:90%;
+  height:15%;
+  margin:0 auto;
+  border-top:2px solid #95a5a6;
+  box-sizing:border-box;
+  padding:10px;
+  display:flex;
+  justify-content:space-between;
+  font-family: 'Quicksand', sans-serif;
+}
+#action > div{
+  height: 100%;
+    display: flex;
+    align-items: center;
+}
+#cost{
+  flex-direction:column;
+  justify-content:space-around;
+}
+#cost >h4,#cost > p{
+  margin:0;
+  text-align:center;
+}
+#cost > p{
+  font-size:36px;
+  color:rgba(5,160,207,0.6);
+}
+#button{
+  font-size:30px;
+  color:rgba(5,160,207,0.6);
+  cursor:pointer;
 }
