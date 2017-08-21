@@ -6,7 +6,7 @@
 
 ## Live Example
 
-* [Codepen-PRODUCT CARD UI](https://codepen.io/skadoodle619/full/gxeWQJ)
+* [Codepen-CHAT APPLICATION UI](https://codepen.io/skadoodle619/full/gxeWQJ)
 * If you like my work please like it and follow me on Codepen [@skadoodle619](https://codepen.io/skadoodle619/)
 
 ## Built With
