@@ -1,18 +1,70 @@
-#bookConatiner{
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+  body{
+    background-color:#2ecc71;
+  }
+  #bookConatiner{
     width:300px;
     height:500px;
-    border:1px solid black;
+    border:1px solid #bfbfbf;
     margin:0 auto;
+    margin-top:100px;
+    box-shadow: 0 0 50px #bfbfbf;
+    background-color:white;
+    border-radius:0.3em;
   }
   #bookImage{
     width:200px;
     height:250px;
-    border:1px solid black;
     margin:0 auto;
     margin-top:50px;
+  }
+  #bookImage > img{
+    height:250px;
+    width:200px;
   }
   #bookDetails{
     width:inherit;
     height:200px;
-    border:1px solid black;
+  }
+  #bookInfo{
+    height:150px;
+    padding:15px;
+  }
+  #button{
+    height:50px;
+    background-color:#2d292a;
+  }
+  #bookInfo > h3{
+    text-align:center;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    padding:4px;
+  }
+  #bookInfo > p{
+    font-size:14px;
+    text-align:center;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    padding:4px;
+    color:#95a5a6;
+  }
+  #bookInfo > #cost{
+    color:#2ecc71;
+    font-size:16px;
+  }
+  #bookInfo > #cost >span{
+    color:#95a5a6;
+    text-decoration:line-through;
+    font-size:12px;
+  }
+  #button{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: 'Encode Sans Semi Condensed', sans-serif;
+    border-bottom-left-radius:0.3em;
+    border-bottom-right-radius:0.3em;
   }
