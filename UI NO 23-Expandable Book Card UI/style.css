@@ -1,0 +1,18 @@
+#bookConatiner{
+    width:300px;
+    height:500px;
+    border:1px solid black;
+    margin:0 auto;
+  }
+  #bookImage{
+    width:200px;
+    height:250px;
+    border:1px solid black;
+    margin:0 auto;
+    margin-top:50px;
+  }
+  #bookDetails{
+    width:inherit;
+    height:200px;
+    border:1px solid black;
+  }
