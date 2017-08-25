@@ -1,0 +1,16 @@
+#appConatainer{
+    width:850px;
+    height:650px;
+    margin:0 auto;
+    border:1px solid black;
+    padding:25px;
+    box-sizing:border-box;
+    display:flex;
+    justify-content:space-around;
+  }
+  .screenContainer{
+    box-sizing:border-box;
+    width:350px;
+    height:600px;
+    border:1px solid;
+  }
