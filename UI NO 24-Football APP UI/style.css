@@ -1,16 +1,58 @@
+*{
+  font-family: 'Dosis', sans-serif;
+}
 #appConatainer{
-    width:850px;
-    height:650px;
-    margin:0 auto;
-    border:1px solid black;
-    padding:25px;
-    box-sizing:border-box;
-    display:flex;
-    justify-content:space-around;
-  }
-  .screenContainer{
-    box-sizing:border-box;
-    width:350px;
-    height:600px;
-    border:1px solid;
-  }
+  width:900px;
+  height:650px;
+  margin:0 auto;
+  border:1px solid black;
+  padding:25px;
+  box-sizing:border-box;
+  display:flex;
+  justify-content:space-around;
+}
+.screenContainer{
+  box-sizing:border-box;
+  width:400px;
+  height:600px;
+  border:1px solid;
+}
+#sectionHeader{
+  height:150px;
+  border-bottom:1px solid black;
+  padding:20px;
+  box-sizing:border-box;
+  display:flex;
+}
+#labels{
+  box-sizing:border-box;
+  padding:8px;
+  text-align:center;
+}
+#labels > h4,#labels > h5{
+  margin:0;
+  padding:4px 6px;
+}
+.teamImg{
+  flex:1;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.teamImg > img{
+  height:75px;
+  width:75px;
+}
+#score > ul {
+  display:flex;
+  border:1px solid;
+  padding:8px;
+  font-weight:bolder;
+  position:relative;
+  font-size:22px;
+  top:20px;
+}
+#score > ul >li{
+  flex:1;
+  list-style:none;
+}
