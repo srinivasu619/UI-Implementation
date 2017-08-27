@@ -45,14 +45,20 @@
 }
 #score > ul {
   display:flex;
-  border:1px solid;
   padding:8px;
   font-weight:bolder;
   position:relative;
   font-size:22px;
-  top:20px;
+  top:15px;
 }
 #score > ul >li{
   flex:1;
   list-style:none;
+  padding:12px;
+}
+li:nth-child(1){
+  background-color:#9b59b6;
+}
+li:nth-child(2){
+  background-color:#ecf0f1;
 }
