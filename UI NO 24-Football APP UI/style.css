@@ -62,3 +62,31 @@ li:nth-child(1){
 li:nth-child(2){
   background-color:#ecf0f1;
 }
+#matchReport{
+  padding:20px;
+  height:400px;
+  overflow-y:scroll;
+  box-sizing:border-box;
+}
+.matchEntry{
+  height:30px;
+  padding:4px;
+  display:flex;
+}
+.entryCard{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  width:150px;
+  padding:2px;
+  border-radius:0.3em;
+  font-size:14px;
+  font-weight:bolder;
+  box-shadow: 0 0 5px #7f8c8d;
+}
+.left{
+  justify-content:flex-start
+}
+.right{
+  justify-content:flex-end;
+}
