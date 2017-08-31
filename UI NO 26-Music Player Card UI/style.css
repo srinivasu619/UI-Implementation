@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  body{
+    background-color:#2ecc71;
+  }
+  #mainContainer{
+    width:800px;
+    height:600px;
+    box-sizing:border-box;
+    border-radius:0.3em;
+    margin:0 auto;
+    display:flex;
+    margin-top:60px;
+  }
+  #mainContainer > div{
+    flex:1;
+    box-sizing:border-box;
+  }
+  #songPoster{
+    background-image:url("https://i.pinimg.com/originals/c8/ee/dd/c8eedd37acf4999d48e54724908498a3.jpg");
+    background-size:cover;
+    border-top-left-radius:0.3em;
+    border-bottom-left-radius:0.3em;
+  }
+  #songInfo{
+    background-color:#ecf0f1;
+    border-top-right-radius:0.3em;
+    border-bottom-right-radius:0.3em;
+    padding:20px;
+  }
+  #header > h1{
+    font-family: 'Concert One', cursive;
+    padding:8px 0;
+  }
+  #header > p{
+    font-family:"Nunito";
+    padding:4px 0;
+  }
+  #playback{
+    width:90%;
+    margin:10px auto;
+    height:5px;
+    background-color:#7f8c8d;
+    border-radius:1.2em;
+  }
+  #progress{
+    width:75%;
+    height:5px;
+    background-color:#e67e22;
+    border-radius:0.2em
+  }
+  #timeline{
+    width:90%;
+    margin:0 auto;
+    font-family:"Nunito";
+    padding:4px 8px;
+    display:flex;
+    justify-content:space-between;
+  }
