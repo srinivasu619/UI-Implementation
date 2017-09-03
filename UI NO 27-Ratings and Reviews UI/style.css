@@ -1,11 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#reviewContainer{
-    width:500px;
-    height:400px;
-    margin:0 auto;
-    border-radius:0.3em;
+
+#mainContainer {
+    width: 900px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#reviewContainer {
+    width: 500px;
+    height: 400px;
+    border-radius: 0.3em;
     box-shadow: 0 0 10px #000000;
-  }
+    box-sizing: border-box;
+}
+
+#reviews {
+    width: 300px;
+    height: 400px;
+    border-radius: 0.3em;
+    box-shadow: 0 0 10px #000000;
+    box-sizing: border-box;
+}
