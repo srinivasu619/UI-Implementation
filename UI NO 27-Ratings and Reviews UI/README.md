@@ -10,7 +10,7 @@ This is my design and Implementation of the UI of the Rating and Review Card.
 * If you like my work please like it follow me on Codepen [@skadoodle619](https://codepen.io/skadoodle619/)
 
 ## Credits
-Flat Icons by [Flaticon.com](www.flaticon.com)
+Flat Icons by [Flaticon.com](https://www.flaticon.com)
 
 ## Built With
 
