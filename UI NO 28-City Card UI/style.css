@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+}
+
+body {
+    background: #3498db;
+}
+
+#mainConatiner {
+    width: 750px;
+    height: 500px;
+    background: #cdcdcd;
+    border-radius: 1.2em;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+}
+
+#cityImage {
+    flex: 3;
+    background: #fff;
+    border-top-left-radius: 1.2em;
+    border-bottom-left-radius: 1.2em;
+}
+
+#cityDesc {
+    flex: 2;
+}
