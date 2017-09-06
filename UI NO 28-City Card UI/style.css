@@ -12,7 +12,6 @@ body {
     width: 750px;
     height: 500px;
     background: #cdcdcd;
-    border-radius: 1.2em;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
@@ -20,9 +19,10 @@ body {
 
 #cityImage {
     flex: 3;
-    background: #fff;
-    border-top-left-radius: 1.2em;
-    border-bottom-left-radius: 1.2em;
+    /*   background:#fff; */
+    background-image: url('https://static.pexels.com/photos/290386/pexels-photo-290386.jpeg');
+    background-size: cover;
+    background-position: -200px;
 }
 
 #cityDesc {
