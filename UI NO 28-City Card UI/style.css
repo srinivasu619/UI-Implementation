@@ -5,13 +5,12 @@
 }
 
 body {
-    background: #3498db;
+    background: #cdcdcd;
 }
 
 #mainConatiner {
     width: 750px;
     height: 500px;
-    background: #cdcdcd;
     margin: 0 auto;
     margin-top: 100px;
     display: flex;
@@ -27,4 +26,12 @@ body {
 
 #cityDesc {
     flex: 2;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+#header {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 36px;
 }
