@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('https://static.pexels.com/photos/290386/pexels-photo-290386.jpeg');
+    background-image: url('https://static.pexels.com/photos/374710/pexels-photo-374710.jpeg');
     background-size: cover;
 }
 
@@ -18,15 +18,44 @@ body {
 }
 
 #cityImage {
-    flex: 3;
-    /*   background:#fff; */
-    background-image: url('https://static.pexels.com/photos/290386/pexels-photo-290386.jpeg');
-    background-size: cover;
-    background-position: -200px;
+    width: 450px;
+    background-color: rgba(127, 140, 141, 0.65);
+    padding: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+#citytags {
+    height: 180px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#citytags>h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 54px;
+    color: white;
+}
+
+#tags {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    border-top: 2px solid #fff;
+    color: #fff;
 }
 
 #cityDesc {
-    flex: 2;
+    width: 300px;
     padding: 20px;
     box-sizing: border-box;
     background-color: #fff;
@@ -38,6 +67,22 @@ body {
 #header {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 36px;
+    letter-spacing: 2px;
+}
+
+#subheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*   width:80%; */
+    padding: 8px 4px 4px 4px;
+    border-bottom: 2px solid #cdcdcd;
+}
+
+#desc {
+    padding: 8px 4px;
+    color: #7f8c8d;
+    font-family: 'Dosis', sans-serif;
 }
 
 #album {
@@ -48,6 +93,7 @@ body {
 
 #album>div {
     flex: 1;
+    cursor: pointer;
 }
 
 #one {
@@ -68,6 +114,7 @@ body {
 #four {
     background-color: #bdc3c7;
     display: flex;
+    color: white;
     justify-content: center;
     align-items: center;
 }
