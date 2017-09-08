@@ -5,7 +5,8 @@
 }
 
 body {
-    background: #cdcdcd;
+    background-image: url('https://static.pexels.com/photos/290386/pexels-photo-290386.jpeg');
+    background-size: cover;
 }
 
 #mainConatiner {
@@ -29,9 +30,44 @@ body {
     padding: 20px;
     box-sizing: border-box;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #header {
     font-family: 'Allerta Stencil', sans-serif;
     font-size: 36px;
+}
+
+#album {
+    height: 70px;
+    width: 100%;
+    display: flex;
+}
+
+#album>div {
+    flex: 1;
+}
+
+#one {
+    background-image: url("https://static.pexels.com/photos/41083/pexels-photo-41083.jpeg");
+    background-size: cover;
+}
+
+#two {
+    background-image: url("https://static.pexels.com/photos/97516/pexels-photo-97516.jpeg");
+    background-size: cover;
+}
+
+#three {
+    background-image: url("https://static.pexels.com/photos/220824/pexels-photo-220824.jpeg");
+    background-size: cover;
+}
+
+#four {
+    background-color: #bdc3c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
