@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  #mainContainer{
+    width:900px;
+    height:650px;
+    margin:0 auto;
+    box-sizing:border-box;
+    border:1px solid;
+    display:flex;
+  }
+  #playerImg{
+    width:400px;
+    height:650px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  #playerImg > img{
+    height:650px;
+  }
+  #playerDesc{
+    width:500px;
+    height:inherit;
+    background-color:#cdcdcd;
+  }
