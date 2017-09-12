@@ -20,6 +20,10 @@ body {
   box-sizing: border-box;
   display: flex;
   background: white;
+  box-sizing: border-box;
+  padding: 20px 4px;
+  margin-top: 50px;
+  border-radius: 0.3em;
 }
 
 #playerImg {
@@ -45,6 +49,7 @@ body {
   font-weight: 100;
   font-family: 'Encode Sans Condensed', sans-serif;
   letter-spacing: 0.2em;
+  color: #34495e;
 }
 
 #position {
@@ -76,7 +81,7 @@ body {
 }
 
 #bio>p {
-  font-size: 16px;
+  font-size: 15px;
   font-family: 'Encode Sans Condensed', sans-serif;
   letter-spacing: 2px;
   line-height: 2em;
@@ -103,6 +108,83 @@ body {
   font-weight: bolder;
 }
 
+.label>p {
+  padding-bottom: 4px;
+  border-bottom: 2px solid #34495e;
+}
+
 #clubs>div>img {
   height: 60px;
+}
+
+#stats {
+  width: 100%;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+}
+
+#stats>div {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+#achievements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#achievements>div {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+#achievements>div>img {
+  height: 35px;
+}
+
+#achievements>div>p {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  font-weight: bolder;
+  padding-left: 10px;
+}
+
+#achievements>div>p>span {
+  font-size: 10px;
+  font-weight: bolder;
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4px;
+  box-sizing: border-box;
+}
+
+h4 {
+  font-family: 'Encode Sans Condensed', sans-serif;
+  letter-spacing: 3px;
+  font-size: 14px;
+  border-bottom: 2px solid #34495e;
+  padding-bottom: 4px;
+  color: #34495e;
+}
+
+#card>img {
+  height: 150px;
+  position: relative;
+  top: 15px;
 }
