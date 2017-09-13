@@ -2,7 +2,7 @@
 
 This is my design and Implementation of the UI of the Football Player Card.
 
-![Screenshot2017-09-0901.04.11.png](http://i.imgrpost.com/imgr/2017/09/08/Screenshot2017-09-0901.04.11.png)
+![Screenshot2017-09-1220.56.51.png](http://i.imgrpost.com/imgr/2017/09/13/Screenshot2017-09-1220.56.51.png)
 
 ## Live Example
 
