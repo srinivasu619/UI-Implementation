@@ -6,7 +6,7 @@ This is my design and Implementation of the UI of the City Card.
 
 ## Live Example
 
-* [Codepen-Rating and Review Card](https://codepen.io/skadoodle619/full/yorjLv)
+* [Codepen-City Card](https://codepen.io/skadoodle619/full/yorjLv)
 * If you like my work please like it follow me on Codepen [@skadoodle619](https://codepen.io/skadoodle619/)
 
 ## Credits
