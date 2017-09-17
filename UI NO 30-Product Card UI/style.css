@@ -3,4 +3,23 @@
     margin: 0;
 }
 
-#mainContainer {}
+#mainContainer {
+    width: 900px;
+    height: 500px;
+    border: 1px solid;
+    display: flex;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 450px;
+}
+
+#left {
+    background: #fff;
+}
+
+#right {
+    background: #f1c40f;
+}
