@@ -45,4 +45,53 @@
 #content {
     width: 375px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#description {
+    width: 320px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#description>p {
+    letter-spacing: 2px;
+    line-height: 1.8em;
+}
+
+#ratingHeader {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#ratingHeader>ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#ratingHeader>ul>li {
+    padding-right: 4px;
+}
+
+.yellow {
+    color: #f1c40f;
+}
+
+.grey {
+    color: #bdc3c7;
+}
+
+#quantity {
+    width: 150px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
 }
