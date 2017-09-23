@@ -43,6 +43,35 @@ body {
     width: 75px;
     background: #dddddd;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.options {
+    width: 60px;
+    box-sizing: border-box;
+    margin: 8px 0;
+}
+
+.optimg {
+    height: 55px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.optimg>img {
+    height: 35px;
+}
+
+.opttitle {
+    padding: 4px;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 11px;
 }
 
 #content {
@@ -95,20 +124,32 @@ body {
 }
 
 #quantity {
-    width: 250px;
+    width: 200px;
     display: flex;
     justify-content: space-between;
-    font-size: 18px;
+    align-items: center;
+    font-size: 22px;
+}
+
+#quantity>span,
+#quantity>i {
+    font-size: 16px;
+    color: #95a5a6;
+}
+
+#quantity>span {
+    color: #000;
+    letter-spacing: 2px;
 }
 
 #totalCost {
-    width: 320px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
     padding: 0 8px;
     box-sizing: border-box;
     padding-top: 10px;
-    border-top: 1px solid;
+    border-top: 1.5px solid #95a5a6;
 }
 
 .price {
@@ -120,10 +161,26 @@ body {
     align-items: center;
 }
 
+.priceHeader {
+    font-size: 14px;
+    color: #7f8c8d;
+    letter-spacing: 2px;
+}
+
+.value {
+    font-size: 28px;
+    color: #2ecc71;
+    letter-spacing: 2px;
+    font-weight: lighter;
+}
+
 .add {
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 19px;
+    color: #2ecc71;
+    letter-spacing: 2px;
+    font-weight: lighter;
 }
