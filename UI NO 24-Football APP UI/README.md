@@ -2,7 +2,7 @@
 
 This is my design and Implementation of the UI of the Football Report Card.
 
-![Capture.png](http://i.imgrpost.com/imgr/2017/09/27/Capture.png)
+![project.png](http://i.imgrpost.com/imgr/2017/09/27/project.png)
 
 ## Live Example
 
