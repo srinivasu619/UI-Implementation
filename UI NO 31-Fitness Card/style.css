@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#mainContainer {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.appContainer {
+    width: 350px;
+    height: 600px;
+    border: 1px solid;
+}
+
+.visual {
+    height: 350px;
+    background: cyan;
+}
