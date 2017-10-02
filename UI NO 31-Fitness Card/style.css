@@ -1,7 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 #mainContainer {
     width: 900px;
     display: flex;
