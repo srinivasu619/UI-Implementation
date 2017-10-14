@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+body {
+    background: #232323;
+}
+
+#mainContainer {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    box-sizing: border-box;
+    /*   box-shadow:0 0 30px #fff; */
+}
+
+#poster {
+    width: 400px;
+    height: inherit;
+    background: url('http://t0.gstatic.com/images?q=tbn:ANd9GcQxWS9eFCYYzmQYzLzO3ygCWRl2yRxHLqAfasfEPKwXqQ1Bdbiy');
+    background-size: cover;
+}
+
+#info {
+    width: 500px;
+    box-sizing: border-box;
+    padding: 30px;
+    background-color: #fff;
+}
+
+#info>h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+#info>h4 {
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+    box-sizing: border-box;
+    color: #2ecc71;
+}
+
+#info>p {
+    line-height: 1.6em;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.bottom {
+    height: 75px;
+    position: relative;
+    top: 150px;
+    border-top: 2px solid;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom>div {
+    height: 60px;
+    width: 190px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bottom>div>div {
+    display: flex;
+    width: 50px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
