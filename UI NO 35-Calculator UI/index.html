@@ -1,16 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-        <link rel="stylesheet" href="./style.css">
-    </head>
-    <body>
-        <div id="mainContainer">
-            <div style="background-color:aliceblue"></div>
-            <div style="background-color:#232323"></div>
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel|Dosis|Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div style="background-color:aliceblue">
+            <div class="container">
+                <div class="options">
+                    <span>RAD</span>
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+                <div class="screen">
+                    <div class="eqn">2 x 350</div>
+                    <div class="display">700</div>
+                </div>
+                <div class="keypad">
+                    <div class="row">
+                        <div class="num">C</div>
+                        <div class="num">+/-</div>
+                        <div class="num">%</div>
+                        <div class="num spl">/</div>
+                    </div>
+                    <div class="row">
+                        <div class="num">7</div>
+                        <div class="num">8</div>
+                        <div class="num">9</div>
+                        <div class="num spl">X</div>
+                    </div>
+                    <div class="row">
+                        <div class="num">4</div>
+                        <div class="num">5</div>
+                        <div class="num">6</div>
+                        <div class="num spl">-</div>
+                    </div>
+                    <div class="row">
+                        <div class="num">1</div>
+                        <div class="num">2</div>
+                        <div class="num">3</div>
+                        <div class="num spl">+</div>
+                    </div>
+                    <div class="row">
+                        <div class="num">00</div>
+                        <div class="num">0</div>
+                        <div class="num">.</div>
+                        <div class="num spl" id="result">=</div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </body>
+        <div style="background-color:#232323"></div>
+    </div>
+</body>
+
 </html>
