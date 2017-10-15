@@ -10,10 +10,130 @@
     margin-top: 50px;
     display: flex;
 }
-#mainContainer > div{
+
+#mainContainer>div {
     width: 600px;
     height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container {
+    width: 350px;
+    height: 570px;
+    background-color: #232323;
+    border-radius: 1.2em;
+    padding: 24px 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+.options {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    color: #fff;
+    font-family: 'Abel', sans-serif;
+}
+
+.options>span {
+    letter-spacing: 3px;
+    padding: 4px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.options>span:hover {
+    background-color: #424242;
+}
+
+.options>i {
+    cursor: pointer;
+}
+
+.screen {
+    height: 150px;
+    width: 280px;
+    margin-bottom: 20px;
+    position: relative;
+    right: -35px;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.eqn {
+    height: 50px;
+    padding: 10px 20px;
+    color: #1abc9c;
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 2px;
+}
+
+.display {
+    height: 80px;
+    box-sizing: border-box;
+    padding: 5px 24px;
+    color: #bdc3c7;
+    font-size: 54px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.keypad {
+    height: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row {
+    height: 60px;
+    width: 280px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.num {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ecf0f1;
+    font-weight: bolder;
+    font-size: 20px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in;
+    letter-spacing: 2px;
+}
+
+.num:hover {
+    background-color: #424242;
+}
+
+.spl {
+    color: #1abc9c;
+    font-size: 18px;
+}
+
+.spl:hover {
+    color: white;
+    background-color: #1abc9c;
+}
+
+#result {
+    color: #ecf0f1;
+    background-color: #1abc9c;
+    font-size: 24px;
+    box-shadow: 0 0 20px #1abc9c;
 }
