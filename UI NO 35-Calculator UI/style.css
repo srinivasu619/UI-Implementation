@@ -29,14 +29,29 @@
     font-family: 'Nunito', sans-serif;
 }
 
+.container_dark {
+    background-color: #232323;
+}
+
+.container_light {
+    background-color: aliceblue;
+}
+
 .options {
     height: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
-    color: #fff;
     font-family: 'Abel', sans-serif;
+}
+
+.options_dark {
+    color: #fff;
+}
+
+.options_light {
+    color: #232323;
 }
 
 .options>span {
@@ -44,10 +59,6 @@
     padding: 4px;
     border-radius: 3px;
     cursor: pointer;
-}
-
-.options>span:hover {
-    background-color: #424242;
 }
 
 .options>i {
@@ -60,13 +71,20 @@
     margin-bottom: 20px;
     position: relative;
     right: -35px;
-    border-bottom: 2px solid #bdc3c7;
+    border-bottom: 2px solid;
+}
+
+.screen_dark {
+    color: #bdc3c7;
+}
+
+.screen_light {
+    color: #232323;
 }
 
 .eqn {
     height: 50px;
     padding: 10px 20px;
-    color: #1abc9c;
     display: flex;
     text-align: right;
     align-items: center;
@@ -74,15 +92,30 @@
     letter-spacing: 2px;
 }
 
+.eqn_dark {
+    color: #1abc9c;
+}
+
+.eqn_light {
+    color: #e74c3c
+}
+
 .display {
     height: 80px;
     box-sizing: border-box;
     padding: 5px 24px;
-    color: #bdc3c7;
     font-size: 54px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.display_dark {
+    color: #bdc3c7;
+}
+
+.display_light {
+    color: #232323;
 }
 
 .keypad {
@@ -109,7 +142,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ecf0f1;
     font-weight: bolder;
     font-size: 20px;
     border-radius: 50%;
@@ -117,18 +149,41 @@
     letter-spacing: 2px;
 }
 
-.num:hover {
+.num_dark {
+    color: #ecf0f1;
+}
+
+.num_light {
+    color: #232323;
+}
+
+.num_dark:hover {
     background-color: #424242;
 }
 
-.spl {
+.num_light:hover {
+    background-color: #424242;
+    color: aliceblue;
+}
+
+.spl_dark {
     color: #1abc9c;
     font-size: 18px;
 }
 
-.spl:hover {
+.spl_dark:hover {
     color: white;
     background-color: #1abc9c;
+}
+
+.spl_light {
+    color: #e74c3c;
+    font-size: 18px;
+}
+
+.spl_light:hover {
+    color: white;
+    background-color: #e74c3c;
 }
 
 #result {
@@ -136,4 +191,11 @@
     background-color: #1abc9c;
     font-size: 24px;
     box-shadow: 0 0 20px #1abc9c;
+}
+
+#result1 {
+    color: #ecf0f1;
+    background-color: #e74c3c;
+    font-size: 24px;
+    box-shadow: 0 0 20px #e74c3c;
 }
