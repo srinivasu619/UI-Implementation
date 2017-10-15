@@ -165,7 +165,6 @@
     background-color: #424242;
     color: aliceblue;
 }
-
 .spl_dark {
     color: #1abc9c;
     font-size: 18px;
@@ -198,4 +197,10 @@
     background-color: #e74c3c;
     font-size: 24px;
     box-shadow: 0 0 20px #e74c3c;
+}
+h1{
+    position: absolute;
+    font-family: 'Abel', sans-serif;
+    transform: rotate(-90deg);
+    letter-spacing: 8px;
 }
