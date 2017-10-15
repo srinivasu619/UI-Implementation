@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#mainContainer {
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+#mainContainer > div{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
