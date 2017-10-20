@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://storage.googleapis.com/material-design/publish/material_v_12/assets/0Bx4BSt6jniD7Y1huOXVQdlFPMmM/materialdesign-introduction.png');
+    background-size: cover;
+}
+
+#mainContainer {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 16px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+}
+
+.container {
+    width: 350px;
+    height: 550px;
+    box-sizing: border-box;
+}
+
+#articleImg {
+    width: 400px;
+    height: 550px;
+    background-image: url('https://i.pinimg.com/originals/37/e9/f2/37e9f20fda3f92db67949af83042e49d.jpg');
+    background-size: cover;
+    background-position: -22px;
+    /*   filter: grayscale(1); */
+}
+
+#content {
+    padding: 16px;
+}
+
+#header {
+    font-family: "Pontano Sans", sans-serif;
+}
+
+#series {
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 12px;
+    background-color: #bdc3c7;
+    width: 150px;
+    text-align: center;
+    color: #e74c3c;
+    font-family: "Pontano Sans", sans-serif;
+}
+
+h1 {
+    padding: 12px 0;
+    border-bottom: 2px solid #7f8c8d;
+    text-align: center;
+}
+
+p {
+    padding: 12px 4px;
+    line-height: 1.6em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+#user {
+    display: flex;
+    padding: 0 8px;
+    align-items: center;
+    height: 60px;
+    font-family: "Pontano Sans", sans-serif;
+    background-color: aliceblue;
+    border-radius: 2px;
+    margin-top: 8px;
+}
+
+#userImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#userImg>img {
+    height: 40px;
+}
+
+#userDetails {
+    height: 40px;
+    width: 200px
+}
+
+#follow {
+    height: 30px;
+    width: 30px;
+    background-color: #bdc3c7;
+    border-radius: 50%;
+}
+
+#follow>img {
+    height: 30px;
+    cursor: pointer;
+}
+
+h4 {
+    letter-spacing: 2px;
+}
+
+h5 {
+    color: #2ecc71;
+    letter-spacing: 1px;
+}
+
+#bottom {
+    height: 70px;
+    border-top: 2px solid #7f8c8d;
+    position: relative;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+#bottom>div {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+i {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+span {
+    font-family: "Pontano Sans", sans-serif;
+    margin-right: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
