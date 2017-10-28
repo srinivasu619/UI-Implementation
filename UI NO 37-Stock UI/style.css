@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 350px;
+    height: 590px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid;
+    box-sizing: border-box;
+    background: white;
+}
+
+.header {
+    height: 50px;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 12px;
+    background: #ecf0f1;
+}
+
+.header>div {
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.stock {
+    height: 120px;
+    background: #cdcdcd;
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 5px;
+}
+
+#stock1 {
+    background: #00b09b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00b09b, #02e5ac);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #00b09b, #02e5ac);
+}
+
+#stock2 {
+    background: #c94b4b;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1386c8, #43b6ed);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1386c8, #43b6ed);
+}
+
+#stock3 {
+    background: #74ebd5;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7c2ca5, #ab5ac0);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7c2ca5, #ab5ac0);
+}
+
+#stock4 {
+    background: #6a3093;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ba2463, #e5558a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ba2463, #e5558a);
+}
