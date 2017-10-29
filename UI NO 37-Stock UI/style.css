@@ -3,14 +3,18 @@
     padding: 0;
 }
 
+body {
+    background: #34495e;
+}
+
 .container {
     width: 350px;
     height: 590px;
     margin: 0 auto;
     margin-top: 50px;
-    border: 1px solid;
     box-sizing: border-box;
     background: white;
+    border-radius: 3px;
 }
 
 .header {
@@ -23,6 +27,8 @@
     font-family: 'Dosis', sans-serif;
     margin-bottom: 12px;
     background: #ecf0f1;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .header>div {
@@ -34,10 +40,13 @@
 .stock {
     height: 120px;
     background: #cdcdcd;
-    width: 95%;
+    width: 93%;
     margin: 0 auto;
     margin-top: 12px;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #stock1 {
@@ -70,4 +79,48 @@
     background: -webkit-linear-gradient(to right, #ba2463, #e5558a);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ba2463, #e5558a);
+}
+
+.company {
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Dosis', sans-serif;
+    align-items: center;
+}
+
+.name {
+    height: inherit;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.value {
+    background: white;
+    height: inherit;
+    width: 30%;
+    border-radius: 5px;
+}
+
+.value>div {
+    text-align: center;
+    font-size: 14px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.acr {
+    background: #cdcdcd;
+    font-weight: bolder;
+    padding: 4px 0;
 }
