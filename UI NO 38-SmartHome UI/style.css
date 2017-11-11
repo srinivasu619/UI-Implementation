@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #bdc3c7;
+}
+
+.mainContainer {
+    width: 350px;
+    height: 590px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-sizing: border-box;
+    background: linear-gradient(to left, #2a0845, #6441A5);
+    border-radius: 3px;
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid #ecf0f1;
+}
+
+.filter {
+    height: 40px;
+    width: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #1abc9c;
+}
+
+.expenses {
+    height: 80px;
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 5px;
+    background: rgba(189, 195, 199, 0.2);
+    color: white;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: 'Dosis';
+    align-items: center;
+    justify-content: space-around;
+}
+
+.units {
+    font-size: 12px;
+}
+
+.resource {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #ecf0f1;
+}
+
+.rname {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+i,
+i::before {
+    font-size: 20px;
+}
+
+.val {
+    width: 50px;
+    text-align: center;
+    padding: 3px 4px;
+    border-radius: 1.2em;
+}
+
+.cost {
+    height: 70px;
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #fff;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    font-family: 'Dosis';
+    color: white;
+    font-weight: bolder;
+}
+
+.cost>div {
+    text-align: center;
+    margin: 0 20px;
+}
