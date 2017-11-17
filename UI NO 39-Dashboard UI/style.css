@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*   font-family: 'Dosis', sans-serif; */
+    /*   font-family: 'Poiret One', sans-serif; */
+    /*   font-family: 'Barlow Semi Condensed', sans-serif; */
+    font-family: 'Abel';
+    box-sizing: border-box;
+}
+
+.dashboardContainer {
+    height: 650px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background: #232323;
+    color: white;
+}
+
+.menu {
+    width: 270px;
+    height: inherit;
+    border-right: 1px solid white;
+}
+
+.title {
+    width: inherit;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgHolder {
+    height: 75px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgHolder>img {
+    height: 40px;
+}
+
+h3 {
+    letter-spacing: 3px;
+    font-size: 24px;
+    background: linear-gradient(to left, #89c7f8, #b8a5fa, #db89fb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profile {
+    height: 200px;
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.profileImg {
+    width: inherit;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileImg>img {
+    height: 95px;
+}
+
+.details {
+    height: 50px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+}
+
+.details>span {
+    color: #cdcdcd;
+    font-size: 12px;
+}
+
+.info {
+    width: 730px;
+    padding: 20px;
+}
