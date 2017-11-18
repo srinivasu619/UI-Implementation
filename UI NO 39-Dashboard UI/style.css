@@ -122,3 +122,90 @@ h3 {
     width: 730px;
     padding: 20px;
 }
+
+.header {
+    height: 60px;
+    width: 710px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.extras {
+    width: 350px;
+    height: 45px;
+    background: white;
+    border-top-left-radius: 1.5em;
+    border-bottom-left-radius: 1.5em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #232323;
+}
+
+.header>h4 {
+    letter-spacing: 3px;
+}
+
+.support {
+    width: 120px;
+    height: 30px;
+    margin-left: 50px;
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.2em;
+    padding: 4px 10px;
+    border: 2px solid;
+    letter-spacing: 2px;
+}
+
+.firstRow {
+    width: 690px;
+    height: 200px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.elemfirst {
+    width: 332px;
+    height: 180px;
+    border: 1px solid;
+}
+
+.elemfirst>h5 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    border-bottom: 1px solid;
+    margin-bottom: 6px;
+}
+
+#first>p {
+    text-align: left;
+    padding-left: 20px;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+
+#first>p>strong {
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #3498db;
+}
+
+#balance {
+    width: inherit;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 48px;
+    letter-spacing: 2px;
+    color: #3498db;
+}
