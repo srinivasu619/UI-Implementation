@@ -20,7 +20,6 @@
 .menu {
     width: 270px;
     height: inherit;
-    border-right: 1px solid white;
 }
 
 .title {
@@ -83,6 +82,40 @@ h3 {
 .details>span {
     color: #cdcdcd;
     font-size: 12px;
+}
+
+.menuItems {
+    width: inherit;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options {
+    width: inherit;
+}
+
+.items {
+    height: 50px;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.items>i {
+    margin: 0 20px;
+}
+
+.items>h5 {
+    letter-spacing: 2px;
+}
+
+.selected {
+    color: #232323;
+    background: linear-gradient(to left, #89c7f8, #b8a5fa, #db89fb);
 }
 
 .info {
