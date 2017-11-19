@@ -15,6 +15,7 @@
     margin-top: 50px;
     background: #232323;
     color: white;
+    display: flex;
 }
 
 .menu {
@@ -121,6 +122,7 @@ h3 {
 .info {
     width: 730px;
     padding: 20px;
+    color: white;
 }
 
 .header {
@@ -162,6 +164,18 @@ h3 {
     letter-spacing: 2px;
 }
 
+.dateInfo {
+    letter-spacing: 2px;
+    padding: 4px 8px;
+    border-radius: 1.2em;
+    color: #232323;
+    background: #fff;
+    border: 2px solid #fff;
+    width: 50%;
+    text-align: center;
+    font-weight: bolder;
+}
+
 .firstRow {
     width: 690px;
     height: 200px;
@@ -169,7 +183,7 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 .elemfirst {
@@ -208,4 +222,200 @@ h3 {
     margin-top: 48px;
     letter-spacing: 2px;
     color: #3498db;
+}
+
+.secondRow {
+    width: 690px;
+    height: 310px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.elemSecond {
+    height: 290px;
+    width: 220px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elemSecond>h5 {
+    height: 30px;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+    padding-left: 20px;
+    border-bottom: 1px solid;
+    margin-bottom: 12px;
+}
+
+.cardImg {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #7f8c8d;
+    border-radius: 50%;
+    margin-bottom: 4px;
+}
+
+.cardImg>img {
+    height: 45px;
+}
+
+.cards {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    margin-top: 4px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards>i {
+    font-size: 18px;
+}
+
+.cards>h5 {
+    letter-spacing: 1px;
+}
+
+.cardLabels {
+    width: inherit;
+    text-align: left;
+    padding-left: 20px;
+    color: #3498db;
+}
+
+.statement {
+    margin-top: 4px;
+    padding: 6px 10px;
+    border: 2px solid;
+    border-radius: 1.2em;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.statement:hover {
+    color: #232323;
+    background: #fff;
+    border: 2px solid;
+}
+
+.transaction {
+    width: 95%;
+    height: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.transaction>div {
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.date {
+    width: 20%;
+    font-size: 12px;
+    color: #3498db;
+    border: 2px solid #95a5a6;
+    border-radius: 50%;
+}
+
+.amount {
+    width: 40%;
+    letter-spacing: 2px;
+}
+
+.status {
+    width: 20%;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+.seperator {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 4px;
+    border-bottom: 2px solid #ecf0f1;
+}
+
+.wallet {
+    width: 95%;
+    height: 80px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgHold {
+    width: 60px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgHold>img {
+    height: 40px;
+}
+
+.content {
+    width: 150px;
+    height: inherit;
+    border-left: 1px solid;
+}
+
+.content>h6 {
+    padding: 8px;
+    letter-spacing: 2px;
+    color: #3498db;
+}
+
+.content>h4 {
+    padding: 4px 8px;
+}
+
+.bills {
+    margin-top: 8px;
+    height: 150px;
+    width: 95%;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bills>.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.content>.invoice {
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content>.invoice>div {
+    font-weight: bolder;
+}
+
+.content>.seperator {
+    width: 80%;
 }
