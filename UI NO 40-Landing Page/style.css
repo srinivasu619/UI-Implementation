@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
+}
+
+body {
+    height: 200px;
+    margin: 0 0 20px 0;
+    background-color: transparent;
+    background-size: 20px 20px;
+    background-image: -webkit-repeating-linear-gradient(-45deg, black, black 2px, transparent 1px, transparent 14px);
+    background-image: -moz-repeating-linear-gradient(-45deg, black, black 2px, transparent 1px, transparent 14px);
+    background-image: -o-repeating-linear-gradient(-45deg, black, black 2px, transparent 1px, transparent 14px);
+    background-image: repeating-linear-gradient(-45deg, black, black 2px, transparent 1px, transparent 14px);
+}
+
+.mainContainer {
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    border: 1px solid;
+    margin-top: 15px;
+    background: #232323;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    width: 1160px;
+    height: 70px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header>div {
+    height: 50px;
+}
+
+.heading {
+    width: 300px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.heading>i {
+    font-size: 20px;
+}
+
+.heading>div {
+    letter-spacing: 2px;
+    margin-left: 20px;
+    font-size: 22px;
+    font-weight: light;
+}
+
+.options {
+    width: 300px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.options>div {
+    letter-spacing: 1px;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 1.2em;
+}
+
+.options>div:hover {
+    background: #fff;
+    color: #232323
+}
+
+.footer {
+    height: 50px;
+    width: 1100px;
+    border-top: 2px solid #dedede;
+}
+
+.social {
+    width: 200px;
+    height: 40px;
+    background: #232323;
+    position: relative;
+    top: -10px;
+    left: 50px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social>i {
+    font-size: 18px;
+    color: #dedede;
+    cursor: pointer;
+}
