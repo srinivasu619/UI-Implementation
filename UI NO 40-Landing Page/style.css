@@ -51,6 +51,10 @@ body {
 
 .heading>i {
     font-size: 20px;
+    padding: 15px;
+    border-radius: 50%;
+    background: #fff;
+    color: #232323;
 }
 
 .heading>div {
@@ -72,7 +76,6 @@ body {
     letter-spacing: 1px;
     cursor: pointer;
     padding: 4px 8px;
-    border-radius: 1.2em;
 }
 
 .options>div:hover {
@@ -102,4 +105,58 @@ body {
     font-size: 18px;
     color: #dedede;
     cursor: pointer;
+}
+
+.middle {
+    width: 1060px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left {
+    height: inherit;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left>img {
+    height: 400px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.right {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+    color: #dedede;
+}
+
+.right>.heading {
+    height: 50px;
+    font-size: 32px;
+    color: #dedede;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.right>.content {
+    letter-spacing: 2px;
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+
+.right>.button {
+    width: 180px;
+    letter-spacing: 2px;
+    padding: 4px 10px;
+    border: 2px solid;
+    text-align: center;
 }
