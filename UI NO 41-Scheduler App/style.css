@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width: 1000px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid;
+    display: flex;
+    background: #232323;
+    color: white;
+}
+
+.left {
+    width: 600px;
+    height: inherit;
+    border-right: 1px solid;
+    padding: 20px;
+}
+
+.left>.header {
+    width: 560px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    border: 1px solid;
+}
+
+.left>.dateContainer {
+    height: 400px;
+    width: 560px;
+    border: 1px solid;
+    padding: 10px;
+}
+
+.left>.dateContainer>.dateheading {
+    width: 540px;
+    height: 30px;
+    border: 1px solid;
+    margin-bottom: 22px;
+}
+
+.left>.dateContainer>.row {
+    width: 540px;
+    height: 60px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left>.dateContainer>.row>.date {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+}
+
+.right {
+    width: 400px;
+    height: inherit;
+}
