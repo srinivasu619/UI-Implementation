@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Abel', sans-serif;
 }
 
 .mainContainer {
@@ -40,8 +41,22 @@
 .left>.dateContainer>.dateheading {
     width: 540px;
     height: 30px;
-    border: 1px solid;
     margin-bottom: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.left>.dateContainer>.dateheading>.day {
+    width: 50px;
+    height: inherit;
+    color: #bdc3c7;
+    letter-spacing: 2px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
 }
 
 .left>.dateContainer>.row {
@@ -56,10 +71,18 @@
 .left>.dateContainer>.row>.date {
     height: 50px;
     width: 50px;
-    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
 }
 
 .right {
     width: 400px;
     height: inherit;
+}
+
+.active {
+    color: white;
+    background: #1abc9c;
 }
