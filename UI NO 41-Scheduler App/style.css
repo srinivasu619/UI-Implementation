@@ -25,16 +25,35 @@
 
 .left>.header {
     width: 560px;
-    height: 100px;
+    height: 70px;
     margin: 0 auto;
     margin-bottom: 12px;
-    border: 1px solid;
+}
+
+.left>.header>.months {
+    width: inherit;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.left>.header>.months>.nac {
+    font-size: 12px;
+    color: #95a5a6;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.left>.header>.months>.ac {
+    font-size: 24px;
+    letter-spacing: 4px;
 }
 
 .left>.dateContainer {
-    height: 400px;
+    height: 350px;
     width: 560px;
-    border: 1px solid;
     padding: 10px;
 }
 
@@ -51,7 +70,7 @@
     width: 50px;
     height: inherit;
     color: #bdc3c7;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 14px;
     display: flex;
     align-items: center;
@@ -61,7 +80,7 @@
 
 .left>.dateContainer>.row {
     width: 540px;
-    height: 60px;
+    height: 50px;
     margin-bottom: 6px;
     display: flex;
     justify-content: space-around;
@@ -69,8 +88,8 @@
 }
 
 .left>.dateContainer>.row>.date {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,4 +104,32 @@
 .active {
     color: white;
     background: #1abc9c;
+}
+
+.status {
+    width: 560px;
+    height: 80px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.status>.dateinfo {
+    width: 200px;
+    height: 30px;
+    padding: 4px 8px;
+    color: #232323;
+    background: #fff;
+    border-radius: 1.2em;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.status>.acstats {
+    width: 300px;
 }
