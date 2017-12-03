@@ -96,11 +96,6 @@
     border-radius: 50%;
 }
 
-.right {
-    width: 400px;
-    height: inherit;
-}
-
 .active {
     color: white;
     background: #1abc9c;
@@ -109,7 +104,6 @@
 .status {
     width: 560px;
     height: 80px;
-    border: 1px solid;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -132,4 +126,34 @@
 
 .status>.acstats {
     width: 300px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.right {
+    width: 400px;
+    height: inherit;
+    padding: 20px;
+    color: white;
+}
+
+.right>.logo {
+    width: 360px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.logo>i {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.logo>div {
+    letter-spacing: 3px;
+    font-size: 28px;
 }
