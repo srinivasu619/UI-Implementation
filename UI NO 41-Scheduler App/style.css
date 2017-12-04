@@ -146,14 +146,86 @@
     height: 50px;
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 
-.logo>i {
+.logo>.logoicon {
+    height: 50px;
+    width: 50px;
     margin-right: 20px;
-    font-size: 14px;
+    border-radius: 50%;
+    background: #f1c40f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo>div {
+.logoicon>img {
+    height: 30px;
+}
+
+.logo>.logotitle {
     letter-spacing: 3px;
-    font-size: 28px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.right>.tasks {
+    height: 200px;
+    color: #232323;
+    border-radius: 3px;
+    background: #fff;
+    padding: 4px 16px;
+}
+
+h4 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 4px 0;
+    border-bottom: 2px solid #232323;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+
+.tasks>.act {
+    padding: 4px;
+    height: 30px;
+    color: white;
+    background: #232323;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+
+.tasks>.act>.time {
+    width: 70px;
+    margin-right: 12px;
+    padding: 0 8px;
+    border-right: 1px solid;
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.tasks>.act>.content {
+    letter-spacing: 2px;
+}
+
+.taskstatus>.tstatus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.taskstatus>.tstatus>div {
+    width: 150px;
+    height: 25px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 2px;
 }
