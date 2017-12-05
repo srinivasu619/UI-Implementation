@@ -10,10 +10,8 @@
     height: 600px;
     margin: 0 auto;
     margin-top: 50px;
-    border: 1px solid;
     display: flex;
-    background: #232323;
-    color: white;
+    box-shadow: 0 0 40px #2323;
 }
 
 .left {
@@ -21,6 +19,8 @@
     height: inherit;
     border-right: 1px solid;
     padding: 20px;
+    color: white;
+    background: #232323;
 }
 
 .left>.header {
@@ -98,7 +98,7 @@
 
 .active {
     color: white;
-    background: #1abc9c;
+    background: #2ecc71;
 }
 
 .status {
@@ -138,7 +138,8 @@
     width: 400px;
     height: inherit;
     padding: 20px;
-    color: white;
+    color: #232323;
+    background: #fff;
 }
 
 .right>.logo {
@@ -168,6 +169,8 @@
     letter-spacing: 3px;
     font-size: 18px;
     font-weight: bolder;
+    text-align: left;
+    width: 220px;
 }
 
 .right>.tasks {
@@ -176,6 +179,7 @@
     border-radius: 3px;
     background: #fff;
     padding: 4px 16px;
+    border: 1px solid;
 }
 
 h4 {
@@ -228,4 +232,93 @@ h4 {
     border-radius: 5px;
     color: white;
     letter-spacing: 2px;
+}
+
+.right>.reminders {
+    height: 270px;
+    border: 1px solid;
+    margin-top: 8px;
+    border-radius: 3px;
+    padding: 4px 16px;
+}
+
+.right>.reminders>.remcontent {
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.timeSet {
+    width: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1.2em;
+    background: #232323;
+    color: #fff;
+    padding: 4px 8px;
+}
+
+.ticket {
+    height: 170px;
+    border-radius: 3px;
+    background: #232323;
+    margin-top: 8px;
+    padding: 4px 16px;
+    color: white;
+}
+
+.ticket>.dep {
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.ticket>.places {
+    height: 70px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.ticket>.places>div {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.ticket>.places>i {
+    font-size: 20px;
+}
+
+.ticket>.seatDetails {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.ticket>.seatDetails>.imgHold {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket>.seatDetails>.imgHold>img {
+    height: 45px;
 }
