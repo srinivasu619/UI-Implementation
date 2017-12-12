@@ -7,11 +7,10 @@
 }
 
 .mainContainer {
-    width: 900px;
+    width: 1000px;
     height: 650px;
-    border-radius: 1.2em;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 100px;
     box-shadow: 0 0 15px #2323;
     display: flex;
     align-items: center;
@@ -25,18 +24,18 @@
 }
 
 .imgHolder {
-    height: 500px;
-    width: 300px;
-    border: 1px solid;
+    height: 900px;
+    position: relative;
+    left: 70px;
 }
 
 .imgHolder>img {
-    height: 480px;
+    height: 850px;
 }
 
 .content {
     height: 600px;
-    width: 500px;
+    width: 400px;
     margin-left: 10px;
 }
 
@@ -44,6 +43,7 @@
     height: 90px;
     display: flex;
     align-items: center;
+    padding-left: 20px;
 }
 
 .content>.header>.logoHolder {
@@ -67,4 +67,128 @@
     line-height: 2.2em;
     letter-spacing: 2px;
     font-weight: bolder;
+    font-size: 14px;
+}
+
+.details {
+    width: 320px;
+    height: 250px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.details>.header {
+    padding: 8px;
+    background: #0097c3;
+    width: 90px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.info {
+    display: flex;
+    margin-top: 12px;
+}
+
+.info>div {
+    width: 120px;
+}
+
+.info>.right {
+    width: 200px;
+}
+
+.left>div,
+.right>div {
+    width: inherit;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+}
+
+.left {
+    color: #cdcdcd;
+}
+
+.position {
+    width: 320px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.position>.common {
+    display: flex;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.position>.common>div {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.down>div {
+    padding-left: 8px;
+}
+
+.position>.common>div>.header {
+    padding: 8px;
+    background: #0097c3;
+    width: 100px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.leftFooter {
+    height: inherit;
+    border-left: 2px solid #0097c3;
+    position: relative;
+    left: 150px;
+}
+
+.leftFooter>.icons {
+    width: 50px;
+    text-align: center;
+    color: #0097c3;
+    position: relative;
+    left: -25px;
+    top: 50px;
+    background: white;
+}
+
+.leftFooter>.icons>i {
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.leftFooter>.icons>i:hover {
+    background: #0097c3;
+    color: white;
+}
+
+.adi {
+    position: relative;
+    left: -70px;
+    top: 400px;
+    width: 100px;
+    height: 70px;
+}
+
+.adi>img {
+    height: 70px;
 }
