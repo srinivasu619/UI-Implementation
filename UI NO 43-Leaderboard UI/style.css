@@ -2,4 +2,113 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Abel';
+}
+
+.mainContainer {
+    width: 1000px;
+    height: 650px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0 0 5px #2323;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: white;
+}
+
+.mainContainer>.left {
+    width: 350px;
+    height: 580px;
+    padding: 0 20px;
+    border-right: 2px solid #bdc3c7;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.mainContainer>.left>.logoHold {
+    height: 65px;
+    width: 100px;
+    padding-left: 16px;
+}
+
+.mainContainer>.left>.logoHold>img {
+    height: 30px;
+}
+
+.place {
+    height: 140px;
+    width: 300px;
+    display: flex;
+}
+
+.place>div {
+    height: inherit;
+}
+
+.place>.flag {
+    width: 100px;
+}
+
+.place>.flag>img {
+    height: 75px;
+}
+
+.place>.placeName {
+    width: 200px;
+    margin-right: 14px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding-top: 18px;
+}
+
+.place>.placeName>.first {
+    height: 30px;
+    font-size: 28px;
+}
+
+.place>.placeName>.second {
+    height: 40px;
+    font-size: 42px;
+}
+
+.place>.placeName>.third {
+    height: 60px;
+    color: #2980b9;
+}
+
+.left>.stats {
+    height: 300px;
+    margin-top: 50px;
+}
+
+.left>.stats>.statsInfo {
+    height: 70px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 12px;
+}
+
+.left>.stats>.statsInfo>h5 {
+    color: #34495e;
+    letter-spacing: 2px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.left>.stats>.statsInfo>div {
+    font-size: 18px;
+    color: #95a5a6;
 }
