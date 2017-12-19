@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Abel';
+    font-family: "Abel";
+}
+
+body {
+    background: url("https://www.formula1.com/content/fom-website/en/championship/races/2018/Abu_Dhabi/_jcr_content/par/manual_gallery_0/image4.img.1024.medium.jpg/1425636329992.jpg") no-repeat center;
+    background-size: cover;
 }
 
 .mainContainer {
-    width: 1000px;
+    width: 1250px;
     height: 650px;
     margin: 0 auto;
     margin-top: 50px;
@@ -111,4 +116,102 @@
 .left>.stats>.statsInfo>div {
     font-size: 18px;
     color: #95a5a6;
+}
+
+.left>.social {
+    width: 200px;
+    height: 50px;
+    justify-content: space-around;
+    position: relative;
+    top: -20px;
+}
+
+.left>.social>i {
+    font-size: 20px;
+    color: #cdcdcd;
+}
+
+.right {
+    width: 850px;
+    height: 580px;
+    padding: 12px 20px;
+}
+
+.right>.header {
+    height: 60px;
+    color: #34495e;
+    font-size: 28px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #bdc3c7;
+}
+
+.right>.playerContainer {
+    height: 480px;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right>.playerContainer>.player>.playerImg {
+    height: 380px;
+    width: 250px;
+    left: -350px;
+}
+
+.right>.playerContainer>.player>.playerInfo {
+    width: 250px;
+    height: 100px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: -5px 0 5px -5px #333;
+    box-shadow: 0 5px 5px -5px #333;
+}
+
+.playerInfo>.num {
+    width: 55px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-right: 2px solid #95a5a6;
+}
+
+.playerInfo>.num>img {
+    height: 20px;
+}
+
+.playerInfo>.num>span {
+    font-size: 14px;
+    color: #95a5a6;
+}
+
+.playerInfo>.helmet {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    background: #1abc9c;
+}
+
+.playerInfo>.helmet>img {
+    height: 40px;
+}
+
+#first {
+    background: url("https://www.formula1.com/content/fom-website/en/championship/drivers/valtteri-bottas/_jcr_content/image.img.1920.medium.jpg/1490267884485.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#second {
+    background: url("https://www.formula1.com/content/fom-website/en/championship/drivers/lewis-hamilton/_jcr_content/image.img.1920.medium.jpg/1490267849284.jpg") no-repeat center;
+    background-size: cover;
+}
+
+#third {
+    background: url("https://www.formula1.com/content/fom-website/en/championship/drivers/sebastian-vettel/_jcr_content/image.img.1920.medium.jpg/1490267969275.jpg") no-repeat center;
+    background-size: cover;
 }
