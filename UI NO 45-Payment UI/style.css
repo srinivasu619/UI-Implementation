@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+.mainContainer {
+    width: 350px;
+    height: 590px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #2323;
+    margin-top: 50px;
+}
+
+.cardHolder {
+    height: 300px;
+    background: linear-gradient( to right, #6480ef, #7775e8, #806ce8);
+    /*   border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%; */
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    height: 40px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.stepHeading {
+    height: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.card {
+    height: 180px;
+    width: 280px;
+    background: white;
+    margin: 0 auto;
+    border-radius: 1.2em;
+    margin-top: 25px;
+    padding: 12px 20px;
+}
+
+.card>.part {
+    height: 50px;
+    margin-bottom: 4px;
+}
+
+.card>.top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card>.top>img {
+    height: 48px;
+}
+
+.infoheader {
+    height: 20px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #95a5a6
+}
+
+.card>.middle>.infocontent {
+    justify-content: space-between;
+    height: 30px;
+}
+
+.number {
+    width: 150px;
+}
+
+.card>.middle>.infocontent>.num {
+    height: 25px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+
+.card>.bottom {
+    display: flex;
+    justify-content: space-between
+}
+
+.holderInfo {
+    width: 150px;
+}
+
+.holderInfo>.name,
+.expDate>.date {
+    font-size: 12px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
