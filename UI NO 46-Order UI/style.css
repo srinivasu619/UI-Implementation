@@ -190,3 +190,21 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.bottom{
+    height:35px;
+    width:200px;
+    font-size:14px;
+    font-weight:bolder;
+    letter-spacing:2px;
+    border-radius:1.2em;
+    color:white;
+    background: linear-gradient(
+      to right,
+      #6480ef,
+      #7775e8,
+      #806ce8
+    );
+    margin:0 auto;
+    position:relative;
+    top:-20px;
+  }
