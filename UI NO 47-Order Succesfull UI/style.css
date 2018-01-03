@@ -24,3 +24,47 @@
     margin-top: 50px;
     background: white;
 }
+
+.top {
+    height: 230px;
+    background: linear-gradient(to right, #6480ef, #7775e8, #806ce8);
+}
+
+.heading {
+    height: 40px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.stepHeading {
+    height: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    color: white;
+}
+
+.imgHolder {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    /*   background: #fff; */
+    border-radius: 50%;
+    margin-top: 12px;
+    box-shadow: 0 0 10px #2323;
+    background: url("https://i.imgrpost.com/imgr/2018/01/03/fireworks.png");
+    background-size: cover;
+}
+
+.hold {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.hold>img {
+    height: 45px;
+}
