@@ -26,7 +26,7 @@
 }
 
 .top {
-    height: 230px;
+    height: 200px;
     background: linear-gradient(to right, #6480ef, #7775e8, #806ce8);
 }
 
@@ -43,6 +43,7 @@
     font-weight: bolder;
     letter-spacing: 2px;
     color: white;
+    margin-top: 8px;
 }
 
 .imgHolder {
@@ -50,9 +51,7 @@
     height: 90px;
     margin: 0 auto;
     /*   background: #fff; */
-    border-radius: 50%;
     margin-top: 12px;
-    box-shadow: 0 0 10px #2323;
     background: url("https://i.imgrpost.com/imgr/2018/01/03/fireworks.png");
     background-size: cover;
 }
@@ -67,4 +66,149 @@
 
 .hold>img {
     height: 45px;
+}
+
+.cart {
+    height: 340px;
+    width: 300px;
+    box-shadow: 0 0 10px #2323;
+    margin: 0 auto;
+    background: #fff;
+    padding: 12px 18px;
+    margin-top: 24px;
+}
+
+.cart>h5 {
+    height: 30px;
+    letter-spacing: 2px;
+    color: #bdc3c7;
+    border-bottom: 2px solid;
+}
+
+.cart>.order>.details {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+
+.order>.details>.prodImg {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #2323;
+}
+
+.prodImg>img {
+    height: 55px;
+}
+
+.info {
+    height: 70px;
+    padding: 12px;
+}
+
+.info>h5 {
+    letter-spacing: 2px;
+}
+
+.info>.size {
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: bolder;
+    color: #bdc3c7;
+    letter-spacing: 1px;
+}
+
+.info>.price {
+    font-size: 14px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    background: linear-gradient( to right, #6480ef, #7775e8, #806ce8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 4px;
+}
+
+.seperator {
+    width: 90%;
+    margin: 0 auto;
+    border-top: 2px solid #ecf0f1;
+}
+
+.address {
+    height: 50px;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.address>i {
+    color: #bdc3c7;
+}
+
+.label {
+    font-weight: bolder;
+    color: #6480ef;
+    letter-spacing: 1px;
+}
+
+.add {
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #bdc3c7;
+}
+
+.progress {
+    height: 80px;
+    justify-content: space-around;
+}
+
+.progress>.stage {
+    width: 60px;
+    height: 80px;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #bdc3c7;
+}
+
+.stage>.name {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+.stage>.date {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+#complete {
+    color: #16a085;
+}
+
+.orderlabel {
+    height: 20px;
+    font-size: 10px;
+    justify-content: flex-end;
+    color: #6480ef;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.options {
+    height: 40px;
+}
+
+.options>div {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 1.2em;
+    color: #6480ef;
+    border: 2px solid;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-right: 12px;
 }
