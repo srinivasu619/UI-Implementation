@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Abel', sans-serif;
+  }
+  .mainContainer{
+    width:1200px;
+    height:750px;
+    margin:0 auto;
+    border:1px solid;
+    margin-top:15px;
+    background:#232323;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+  }
