@@ -1,18 +1,123 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: 'Abel', sans-serif;
-  }
-  .mainContainer{
-    width:1200px;
-    height:750px;
-    margin:0 auto;
-    border:1px solid;
-    margin-top:15px;
-    background:#232323;
-    padding:20px;
-    display:flex;
-    flex-direction:column;
-    justify-content:space-between;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vcenter {
+  display: flex;
+  align-items: center;
+}
+
+.mainContainer {
+  width: 1200px;
+  height: 750px;
+  margin: 0 auto;
+  border: 1px solid;
+  margin-top: 15px;
+  background: #232323;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  height: 70px;
+  color: white;
+  padding: 0 20px;
+  position: relative;
+  top: 20px;
+}
+
+.header>h1 {
+  margin-left: 20px;
+  letter-spacing: 1px;
+}
+
+.footer {
+  height: 50px;
+  width: 1100px;
+  border-top: 2px solid #dedede;
+}
+
+.social {
+  width: 200px;
+  height: 40px;
+  background: #232323;
+  position: relative;
+  top: -10px;
+  left: 50px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social>i {
+  font-size: 18px;
+  color: #dedede;
+  cursor: pointer;
+}
+
+.middle {
+  height: 500px;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: -10px;
+}
+
+.middle>.content {
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+  line-height: 2em;
+  letter-spacing: 2px;
+  position: relative;
+  left: 50px;
+}
+
+.middle>.pitcure {
+  height: 500px;
+  width: 500px;
+  border-radius: 50%;
+  background: white;
+  position: relative;
+  left: 50px;
+}
+
+.middle>.pitcure>img {
+  height: 350px;
+}
+
+.middle>.slider {
+  height: 200px;
+  width: 70px;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  left: -20px;
+}
+
+.slider>.active {
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+}
+
+.slider>.inactive {
+  font-size: 10px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: #bdc3c7;
+}
