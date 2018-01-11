@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Quicksand", sans-serif;
+  }
+  .center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  .vcenter{
+    display:flex;
+    align-items:center;
+  }
+  .mainContainer{
+    width: 350px;
+    height: 590px;
+    margin: 0 auto;
+    box-shadow:0 0 10px #2323;
+    margin-top: 50px;
+    background:white;
+  }
