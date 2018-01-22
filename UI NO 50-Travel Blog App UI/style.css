@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Questrial', sans-serif;
+}
+
+body {
+    background: #B2DFEE;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 350px;
+    height: 590px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px #2323;
+    margin-top: 50px;
+    background: white;
+    padding: 20px;
+}
+
+.top {
+    height: 200px;
+    border-bottom: 1px solid;
+    flex-direction: column;
+}
+
+.header {
+    height: 45px;
+    background: #000;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header>div {
+    margin-left: 14px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.header>i {
+    margin-right: 10px;
+}
+
+.top>.topic {
+    font-size: 54px;
+    margin-top: 36px;
+    letter-spacing: 8px;
+}
+
+.button {
+    font-size: 10px;
+    letter-spacing: 2px;
+    padding: 8px 0;
+    border: 1px solid;
+    width: 85px;
+    font-weight: bolder;
+    margin-top: 14px;
+}
+
+.bottom {
+    height: 350px;
+}
+
+.bottom>.head {
+    padding: 6px 0;
+    margin-top: 10px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    border: 1px solid;
+    width: 70px;
+    font-weight: bolder;
+}
+
+.bottom>.post {
+    height: 270px;
+    box-shadow: 0 0 10px #2323;
+    margin-top: 14px;
+}
+
+.post>.picture {
+    height: 200px;
+    background-image: url("https://www.keralabackwater.com/pictures/package/internal_image/kerala-backwaters-jungles-55.jpeg");
+}
+
+.details {
+    height: 70px;
+    padding-left: 12px;
+}
+
+.details>.user {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 12px;
+    background: #ecf0f1;
+}
+
+.user>img {
+    height: 35px;
+}
+
+.details>.title {
+    width: 180px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-right: 8px;
+}
+
+.title>h4 {
+    margin-bottom: 8px;
+}
+
+.title>h5 {
+    color: #bdc3c7;
+}
+
+.details>.like {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid;
+    color: #e74c3c;
+}
