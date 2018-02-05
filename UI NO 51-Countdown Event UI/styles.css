@@ -50,12 +50,6 @@
     letter-spacing: 2px;
 }
 
-.eventHeading {
-    font-family: 'BLANCH_CAPS_LIGHT';
-    color: white;
-    font-size: 100px;
-}
-
 .menuitems {
     font-family: 'BLANCH_CAPS_LIGHT';
     width: 500px;
@@ -71,4 +65,32 @@
     padding: 4px 8px;
     font-size: 20px;
     font-weight: bold;
+}
+
+.middle {
+    height: 500px;
+    margin-top: 15px;
+}
+
+.middle>.eventDetails {
+    width: 50%;
+    height: 500px;
+}
+
+.eventDetails>.eventHeading {
+    font-family: 'BLANCH_CAPS_LIGHT';
+    color: white;
+    font-size: 100px;
+    letter-spacing: 5px;
+    margin-left: 12px;
+}
+
+.eventDetails>p {
+    width: 65%;
+    font-family: 'Abel';
+    letter-spacing: 2px;
+    font-size: 14px;
+    color: white;
+    line-height: 1.8em;
+    margin-left: 12px;
 }
