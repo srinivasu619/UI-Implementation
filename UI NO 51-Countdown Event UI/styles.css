@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    border: 1px solid;
+    margin-top: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1200px;
+    height: 750px;
+    margin: 0 auto;
+    border: 1px solid;
+    margin-top: 15px;
+    background-image: url('http://bit.ly/2E137Vg');
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
