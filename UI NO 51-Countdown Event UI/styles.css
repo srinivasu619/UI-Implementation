@@ -4,25 +4,71 @@
     box-sizing: border-box;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+@font-face {
+    font-family: 'BLANCH_CAPS_LIGHT';
+    src: url('./fonts/BLANCH_CAPS_LIGHT.otf') format('truetype');
+}
+
 .mainContainer {
     width: 1200px;
     height: 750px;
     margin: 0 auto;
-    border: 1px solid;
     margin-top: 15px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 1200px;
     height: 750px;
-    margin: 0 auto;
-    border: 1px solid;
-    margin-top: 15px;
     background-image: url('http://bit.ly/2E137Vg');
     background-size: cover;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+}
+
+.header {
+    height: 70px;
+    padding: 12px 8px;
+    width: 650px;
     justify-content: space-between;
+}
+
+.header>.logoname {
+    font-family: 'BLANCH_CAPS_LIGHT';
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0 12px;
+    border: 1px solid;
+    letter-spacing: 2px;
+}
+
+.eventHeading {
+    font-family: 'BLANCH_CAPS_LIGHT';
+    color: white;
+    font-size: 100px;
+}
+
+.menuitems {
+    font-family: 'BLANCH_CAPS_LIGHT';
+    width: 500px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menuitems>div {
+    letter-spacing: 3px;
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 20px;
+    font-weight: bold;
 }
