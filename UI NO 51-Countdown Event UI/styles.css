@@ -19,7 +19,14 @@
     font-family: 'BLANCH_CAPS_LIGHT';
     src: url('./fonts/BLANCH_CAPS_LIGHT.otf') format('truetype');
 }
-
+@font-face {
+    font-family: 'Canter Bold Strips';
+    src: url('./fonts/Canter Bold Strips.otf') format('truetype');
+}
+@font-face {
+    font-family: 'Canter Bold';
+    src: url('./fonts/Canter Bold.otf') format('truetype');
+}
 .mainContainer {
     width: 1200px;
     height: 750px;
