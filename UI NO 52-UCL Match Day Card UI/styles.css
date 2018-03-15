@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #feca57;
+}
+
+.mainContainer {
+    display: flex;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 0 10px #2323;
+    background: #fff;
+}
+
+.mainContainer>div>img {
+    height: 400px;
+}
+
+.middle {
+    width: 300px;
+    padding: 0px 20px;
+}
+
+.middle>.title {
+    color: #c8d6e5;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+.middle>.logo {
+    height: 80px;
+    margin: 0 auto;
+}
+
+.logo>img {
+    height: 65px;
+}
+
+.middle>.teamInfo {
+    height: 100px;
+    padding: 8px;
+}
+
+.team {
+    height: 100%;
+    width: 30%;
+    padding: 4px;
+    /*   box-shadow:0 0 10px #1212 */
+}
+
+.score {
+    width: 40%;
+}
+
+.team {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.team>.teamLogo {
+    height: 50px;
+    width: 100%;
+}
+
+.teamLogo>img {
+    height: 50px;
+}
+
+.team>.teamName {
+    font-weight: bolder;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #636e72;
+}
+
+.score {
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.label {
+    font-weight: bold;
+    color: #c8d6e5;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.result {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 2px;
+    color: #636e72;
+}
+
+.agg {
+    font-weight: lighter;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.goal {
+    height: 80px;
+    justify-content: space-between;
+}
+
+.goalInfo {
+    width: 100px;
+    height: 100%;
+}
+
+.goalInfo>.goalScorer {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 12px;
+}
+
+.goalScorer>span {
+    letter-spacing: 1px;
+    font-weight: bolder;
+    color: #576574;
+}
+
+.formGuide {
+    height: 100px;
+}
+
+.formGuide>.label {
+    font-size: 14px;
+    text-align: center;
+}
+
+.formGuide>.teamNam {
+    display: flex;
+    width: 100%;
+    padding: 8px 0;
+}
+
+.teamNam>div {
+    font-size: 10px;
+    font-weight: bolder;
+    width: 50%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.formStats>.teamForm {
+    width: 50%;
+    height: 50px;
+    justify-content: space-around;
+}
+
+.teamForm>.prevRes {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.win {
+    background: #1dd1a1;
+}
+
+.draw {
+    background: #c8d6e5;
+}
