@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    padding: 12px 0;
+    letter-spacing: 2px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.title>span {
+    color: #ff0046;
+    letter-spacing: 3px;
+}
+
+.mainContainer {
+    height: 500px;
+    width: 600px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.product {
+    height: 350px;
+    width: 250px;
+    box-shadow: 0 0 10px #2323;
+    background: url("https://kvellhome.com/assets/images/product_01-1120x1280.jpg");
+    background-size: cover;
+    background-position: -30px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.product>.prodInfo {
+    height: 60x;
+    background: white;
+    padding: 8px 12px;
+    flex-direction: column;
+}
+
+.prodInfo>h5 {
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: #7f8c8d;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.prodInfo>.extras {
+    height: 40px;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.extras>.amount {
+    font-weight: bolder;
+    font-family: 'Roboto', sans-serif;
+    color: #ff0046;
+    font-size: 12px;
+}
+
+.extras>.buttons {
+    height: 100%;
+    color: #ff0046;
+    font-size: 14px;
+}
+
+.productShow {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    box-shadow: 0 0 10px #2323;
+}
+
+.productShow>.left {
+    width: 300px;
+    height: 100%;
+    background: url("https://kvellhome.com/assets/images/product_01-1120x1280.jpg");
+    background-size: cover;
+    background-position: -30px;
+}
+
+.right {
+    padding: 16px 20px;
+    width: 400px;
+}
+
+.right>h1 {
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+
+.right>.seller {
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    color: #ff0046;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.right>.desc {
+    font-family: 'Roboto';
+    margin: 12px 0;
+    color: #7f8c8d;
+    font-size: 12px;
+    line-height: 2em;
+    letter-spacing: 2px;
+}
+
+.right>.colors {
+    width: 200px;
+    height: 50px;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.colors>.color {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    box-shadow: 0 0 10px #2323;
+}
+
+.right>.button {
+    font-family: 'Roboto';
+    background: #ff0046;
+    color: #fff;
+    width: 120px;
+    height: 35px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 12px;
+    margin-top: 32px;
+}
+
+.right>.amount {
+    margin: 12px 0;
+    font-family: 'Roboto';
+    color: #ff0046;
+}
+
+.right>h5 {
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+    color: #7f8c8d;
+}
+
+#second {
+    background: url("https://kvellhome.com/uploads/model/gallery/Pop/POP_ImpulsiveRed_01-777x777.png");
+    background-size: cover;
+    background-position: -50px -35px;
+}
