@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #2170a6;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
+.mainContainer {
+    width: 900px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 10px #2323;
+    margin-top: 200px;
+}
+
+.mainContainer>.item {
+    width: 270px;
+    height: 310px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.item:hover {
+    background: #ecf0f1;
+    transform: scale(1.02);
+    cursor: pointer;
+    transition: all ease-in-out 0.1s;
+}
+
+.item>.logo {
+    height: 90px;
+    /*   background:#f0f; */
+}
+
+.logo>img {
+    height: 50px;
+}
+
+.item>.heading {
+    height: 50px;
+    color: #2170a6;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.item>.desc {
+    height: 100px;
+    text-align: center;
+    /*   padding-top:12px; */
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 2em;
+    font-weight: bold;
+    color: #95a5a6;
+}
+
+.item>.rate {
+    height: 50px;
+}
+
+.rate>div {
+    color: #2170a6;
+    padding: 4px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.rate>.dollar {
+    height: 60%;
+    display: flex;
+    align-items: flex-start;
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-right: 0;
+}
+
+.rate>.per {
+    display: flex;
+    height: 60%;
+    align-items: flex-end;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+.amount {
+    font-size: 24px;
+}
