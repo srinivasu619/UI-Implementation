@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>POMODORO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Abel" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="title center">POMODORO</div>
+    <div class="container vcenter">
+        <div class="label center">POMODORO</div>
+        <div id="play" class="center">
+            <i class="fas fa-play"></i>
+        </div>
+        <div id="reset">
+            <i class="fas fa-sync-alt"></i>
+        </div>
+        <div class="currentSession vcenter">
+            <div class="header center" id="sessionName">
+                Current Session
+            </div>
+            <div class="content vcenter" id="val">
+            </div>
+        </div>
+        <div class="session">
+            <div class="header center">
+                Session
+            </div>
+            <div class="content vcenter">
+                <div id="decSession" class="button center">
+                    <i class="fas fa-minus"></i>
+                </div>
+                <div id="sessionLength" class="val center"></div>
+                <div id="incSession" class="button center">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="break">
+            <div class="header center">
+                Break
+            </div>
+            <div class="content vcenter">
+                <div id="decBreak" class="button center">
+                    <i class="fas fa-minus"></i>
+                </div>
+                <div id="breakLength" class="val center"></div>
+                <div id="incBreak" class="button center">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
